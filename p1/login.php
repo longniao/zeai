@@ -51,14 +51,14 @@ switch ($submitok){
 				}
 			}
 			//设计cookie
-			setcookie("cook_uid",$row[0],null,"/");
-			setcookie("cook_pwd",$row[3],null,"/");
-			setcookie("cook_sex",$row[4],null,"/");
-			setcookie("cook_photo_s",$row[5],null,"/");
-			setcookie("cook_uname",dataIO($row[1],'out'),null,"/");
-			setcookie("cook_nickname",dataIO($row[2],'out'),null,"/");
-			setcookie("cook_grade",$row[6],null,"/");
-			setcookie("cook_birthday",$row[7],null,"/");
+			setcookie("cook_uid",$row[0],null,"/",$_ZEAI['CookDomain']);
+			setcookie("cook_pwd",$row[3],null,"/",$_ZEAI['CookDomain']);
+			setcookie("cook_sex",$row[4],null,"/",$_ZEAI['CookDomain']);
+			setcookie("cook_photo_s",$row[5],null,"/",$_ZEAI['CookDomain']);
+			setcookie("cook_uname",dataIO($row[1],'out'),null,"/",$_ZEAI['CookDomain']);
+			setcookie("cook_nickname",dataIO($row[2],'out'),null,"/",$_ZEAI['CookDomain']);
+			setcookie("cook_grade",$row[6],null,"/",$_ZEAI['CookDomain']);
+			setcookie("cook_birthday",$row[7],null,"/",$_ZEAI['CookDomain']);
 
             $uid = $row[0];
 			$db->query("UPDATE ".__TBL_USER__." SET endtime=".ADDTIME.",endip='$loginip',logincount=logincount+1 WHERE id=".$uid);
