@@ -1,0 +1,23 @@
+body{left:auto;right:auto;height:auto;position: static;}
+.main{overflow-x:hidden;overflow:auto;-webkit-overflow-scrolling:touch;top:44px;bottom:55px;position:absolute}
+.submain{padding:0;background-color:#f0f0f0}
+/*list*/
+.party .list{text-align:left}
+.party .list a{width:90%;margin:20px 5%;-webkit-user-select:none;position:relative;background-color:#fff;padding:0 0 20px 0;border-radius:6px;border:#ddd 1px solid;;box-sizing:border-box;display:block}
+.party .list a .pic{position:relative}
+.party .list a .pic img{width:100%;display:block;border-radius:6px;border:#fff 0 solid;box-sizing:border-box;padding:10px}
+.party .list a .pic .djs{width:-webkit-calc(100% - 20px);font-size:14px;background:rgba(0,0,0,.2);line-height:30px;color:#fff;position:absolute;bottom:10px;left:10px;box-sizing:border-box}
+.party .list a .pic .djs .jzbmT{padding:0 10px;line-height:30px;display:inline-block;margin-right:6px}
+.party .list a .pic .djs .timestyle{display:inline-block;font-size:14px;font-family:Arial;margin:0 4px;color:#000;border-radius:3px;padding:0 6px;height:18px;line-height:18px;text-align:center;background-color:#fff}
+.party .list a i.ico{display:inline-block;font-size:16px}
+.party .list a h3{font-size:18px;margin:0 auto 5px auto;padding:0 10px;color:#000}
+.party .list a h6{width:90%;padding:0 0 0 10px;color:#666;font-size:14px}
+.party .list a h6 .time{font-size:14px;margin:0 2px 0 1px}
+.party .list a h6.nowrap{width:70%;}
+.party .list a dl{margin:15px 0 0 0;clear:both;overflow:auto}
+.party .list a dl dt{width:100px;background-color:#FD45A7;padding:0 0 0 10px;line-height:36px;display:inline-block;color:#fff;float:left;box-sizing:border-box;border-radius:0 20px 20px 0}
+.party .list a dl dt{background:-webkit-linear-gradient(left,#FD5E40,#FF950B);/*chrome*/}
+.party .list a dl dd{width:-webkit-calc(100% - 110px);float:right}
+.party .list a dl dd img,.party .list a dl dd b.ico{display:block;width:36px;height:36px;margin:0 3px;float:left;border-radius:20px}
+.party .list a dl dd img{object-fit:cover;-webkit-object-fit:cover}
+.party .list a dl dd b.ico{border:#ddd 1px solid;font-size:18px;line-height:34px;color:#999;text-align:center;box-sizing:border-box;float:right;margin-right:10px;font-weight:normal}

@@ -1,0 +1,87 @@
+.trend .trendR h1{font-size:18px;font-weight:bold;text-align:center;width:109px;line-height:40px;margin:0 auto 15px auto;position:relative}
+.trend .trendR h1:after{content:'';display:block;height:3px;width:22%;margin:0 auto;height:3px;background-color:#FD66B5;display:block}
+.trend .box{border-radius:8px;background-color:#fff;padding:20px 30px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;margin-bottom:25px}
+.trend .box:hover{box-shadow:0 0 24px rgba(0,0,0,0.08)}
+
+.main{width:1200px;margin:30px auto;clear:both;overflow:auto}
+.main .trendL{width:820px;float:left}
+.main .trendR{width:355px;float:right}
+
+.main .trendR .addbox a{width:98%;background-color:#f0f0f0;display:block;line-height:44px;line-height:44px;margin:20px auto;border:#fff 1px solid;color:#666;border-radius:3px;font-size:14px}
+.main .trendR .addbox a.ed,.main .trendR .addbox a:hover{background-color:#FD66B5;color:#fff;border-color:#FD66B5}
+
+
+/*li*/
+.trendmain dl{width:100%;clear:both;overflow:auto;margin:10px 0 5px 0}
+.trendmain dl dt{width:100px;float:left;margin-right:10px}
+/*.trendmain dl dt img{width:80px;height:80px;border-radius:50px;display:block}
+*/
+.trendmain dl dt a:first-child{width:80px;height:80px;border-radius:50px;display:block}
+.trendmain dl dt span{width:80px;height:80px;border-radius:50px;display:block;background-size:cover;background-position:center center;background-repeat:no-repeat}
+
+
+.trendmain dl dt a:last-child{margin:15px 0 0 -20px;display:inline-block;padding:0 6px;line-height:18px;color:#999;font-size:12px;border:#dedede 1px solid;background-color:#fff;border-radius:2px}
+.trendmain dl dt a:last-child:hover{color:#E83191;border-color:#E83191}
+.trendmain dl dt a.ed:last-child{color:#58C267;border-color:#58C267}
+.trendmain dl dd{width:650px;text-align:left;position:relative;float:left}
+.trendmain dl dd h2{font-size:14px;color:#333}
+.trendmain dl dd div.agree i{background-image:url('../../m1/img/ico.png');background-size:360px 360px;background-repeat:no-repeat;display:inline-block;}
+.trendmain dl dd h2 b{vertical-align:middle;font-weight:normal}
+.trendmain dl dd h2 font{vertical-align:middle;font-size:12px;color:#999;margin:2px 0 0 10px;display:inline-block}
+.trendmain dl dd h3{margin-top:8px}
+.trendmain dl dd h3 b{font-weight:normal;display:inline-block;padding:6px 7px;border-radius:5px;border:#ddd 1px solid;margin-right:5px;font-size:12px;color:#999}
+.trendmain dl dd .star{color:#FFAE00;margin:0 2px}
+.trendmain dl dd p{margin-top:10px;clear:both;overflow:auto}
+.trendmain dl dd p span{width:80px;height:80px;margin:0 3px 3px 0;display:block;float:left;border-radius:2px;cursor:zoom-in;background-size:cover;background-position:center center;background-repeat:no-repeat}
+.trendmain dl dd p span:last-child{margin-right:0}
+.trendmain dl dd h1{font-size:16px;line-height:200%;margin:15px 0 15px 0}
+.trendmain dl dd h1 .aQING{font-size:14px;border-radius:3px;border:0;background-color:#fff;color:#999;padding:0;margin-top:5px;display:block}
+.trendmain dl dd h1 .aQING:before{content:'';}
+.trendmain dl dd h1 .aQING:after{content:'　【详情】';color:#FD66B5;}
+.trendmain dl dd h1 img{max-width:200px;display:block;margin-top:10px;cursor:zoom-in}
+.trendmain dl dd .agree{width:100%;position:relative;margin:15px 0 40px;clear:both;}
+.trendmain dl dd .agree span{color:#999;font-size:12px;position:absolute;left:0}
+.trendmain dl dd .agree i{position:absolute;top:0;width:15px;height:15px}
+.trendmain dl dd .agree i:nth-child(2){right:70px;background-position:left top;cursor:pointer}
+.trendmain dl dd .agree i:nth-child(2):hover,.trendmain dl dd .agree .ed:nth-child(2){background-position:-15px top}
+.trendmain dl dd .agree i:nth-child(3){right:0;background-position:left -15px;top:1px;cursor:pointer}
+.trendmain dl dd .agree i:nth-child(3):hover{background-position:-15px -15px}
+.trendmain dl dd .agree i:nth-child(4){background-image:none;color:#999;font-size:12px;right:50px;top:0}
+.trendmain dl dd .j{width:0;height:0;margin:0 0 0 12px;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:10px solid #f5f5f5}
+.trendmain dl dd em,.trendmain dl dd ul{background-color:#f5f5f5;padding:10px;clear:both;overflow:auto;border-radius:5px}
+.trendmain dl dd em a{margin-right:5px;display:block;float:left}
+.trendmain dl dd em a:last-child{margin:0}
+.trendmain dl dd em img{width:25px;height:25px;border-radius:20px;display:block}
+.trendmain dl dd ul{background-color:#fff;padding:10px 0 0 0}
+.trendmain dl dd ul li{line-height:150%;margin:5px 0;color:#666}
+.trendmain dl dd ul h5{display:inline-block;color:#999}
+.trendmain dl dd ul h5 font,.trendmain dl dd ul span{vertical-align:middle}
+.trendmain .vbox{width:80px;height:80px;display:block;line-height:80px;margin:0 10px 20px 10px;background-color:#fff;position:relative;text-align:center;-webkit-tap-highlight-color:rgba(0,0,0,0);float:left;box-sizing:border-box;border-radius:5px;cursor:pointer}
+.trendmain .vbox img{vertical-align:middle;width:80px;height:80px;border-radius:5px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.trendmain .vbox strong .play{width:40px;height:40px;line-height:40px;font-size:40px;position:absolute;top:20px;left:20px;filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.6;color:#fff}
+.trendmain .vbox strong:hover .play{filter:alpha(opacity=100);-moz-opacity:1;opacity:1}
+.trendmain .vbox .zeaiVbox{display:none;width:1px;height:1px;position:absolute;z-index:8}
+/*trend*/
+
+/*BBS*/
+.partybbs_add{padding:20px 30px 0 30px}
+.partybbs_add button{width:30%;margin:0 auto 0 auto}
+.partybbs_add h1{font-size:20px;font-weight:bold;display:block;text-align:left;margin-bottom:20px}
+.partybbs_add textarea{background-color:#fff;width:100%;clear:both;overflow:auto}
+.partybbs_add textarea{width:100%;height:120px;padding:10px;background-color:#fff;line-height:200%;font-size:16px;border:0;margin:10px 0 0;resize:none;border:#ddd 1px solid;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.partybbs_add textarea:hover{background-color:#f9f9f9}
+.partybbs_add h4{width:100%;text-align:right;color:#999;font-size:13px;margin:5px 0}
+/*so*/
+.main .trendR .form{padding-bottom:20px}
+.main .trendR .form dl{width:100%;height:40px;clear:both;margin-bottom:10px}
+.main .trendR .form dl dt{width:70px;margin:0 10px 0 0px;float:left;color:#999;line-height:40px}
+.main .trendR .form dl dd{width:205px;float:left;text-align:left;line-height:40px}
+.main .trendR .form dl dd button{margin-top:10px;font-size:14px}
+.SW0{width:95px}.SW{width:100%}.SWarea{width:100%;margin-bottom:10px}
+.main .trendR .form .RCW li{width:40%;float:left}
+
+/*soK*/
+.main .trendR .soK{margin-bottom:11px;height:170px}
+.main .trendR .soK form{padding-top:10px}
+.main .trendR .soK input{width:70%;border-radius:0;border-right:0;height:40px;border-radius:3px 0 0 3px}
+.main .trendR .soK button{border-radius:0;height:40px;border-radius:0 3px 3px 0;background-color:#FD66B5;font-size:14px}

@@ -1,0 +1,29 @@
+.my_push_index{top:44px;text-align:left;background-color:#fff;padding:0 20px}
+.my_push_index .tabmenuBAI2{width:100%;background:#fff;height:44px;position:relative;text-align:center;top:0}
+.my_push_index .tabmenuBAI2 li{font-size:16px;color:#000}
+.my_push_index .tabmenuBAI2 i{height:4px;min-width:auto;background:#FD45A7;border-radius:0}
+.my_push_index .tabmenuBAI2 .ed span{color:#000;color:#FD45A7}
+
+.my_push_index .mpi{margin:20px 0;position:relative;text-align:center}
+.my_push_index .mpi section{width:90%;margin:0 auto}
+.my_push_index .mpi section div{width:50%;float:left;color:#FEA2C8;font:normal 36px/36px Arial;margin:15px 0}
+.my_push_index .mpi section div font{color:#8d8d8d;font-size:20px;padding:0 3px}
+.my_push_index .mpi section div:before{font-size:16px;display:block;color:#999;font-family:'Microsoft YaHei','SimSun','宋体'}
+.my_push_index .mpi section div:first-child{border-right:#e4e4e4 1px solid;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.my_push_index .mpi section div:first-child:before{content:'当前排名'}
+.my_push_index .mpi .sbmtips{font-size:12px;color:#999;margin:10px auto 30px auto}
+.my_push_index .mpi .Clist{width:80%;margin:15px auto 20px auto;line-height:180%;color:#999;text-align:left;clear:both;overflow:auto;font-size:12px}
+.my_push_index .mpi dl{width:90%;padding:10px 5%;margin:0 auto;clear:both;overflow:auto;border-bottom:#eee 1px solid;color:#8d8d8d}
+.my_push_index .mpi dl dt,dl dd{float:left;display:block;line-height:30px}
+.my_push_index .mpi dl dt{width:35%;margin:0 5%;font-size:14px;text-align:left}
+.my_push_index .mpi dl dt font{color:#f70;margin:0 5px;font-size:16px}
+.my_push_index .mpi dl dd{width:50%;margin-right:5%}
+.my_push_index .mpi dl dd font{color:#f00}
+.my_push_index .mpi dl dd a{color:#8d8d8d}
+.my_push_index .mpi .tbody{background-color:#f8f8f8;border:0;padding:0;border-radius:6px;box-sizing:border-box;margin-top:10px}
+.my_push_index .mpi .tbody dt{padding-left:10px;box-sizing:border-box}
+.my_push_index .mpi .blank{padding-top:50px}
+.my_push_index .mpi .blank img{width:100px}
+.my_push_index .mpi i.sorrympi{font-size:60px;color:#FFA6A6;margin:0 auto}
+.my_push_index .mpi .size4{margin-top:20px;border-radius:30px}
+.my_push_index .linebox{z-index:1}

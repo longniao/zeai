@@ -1,0 +1,5 @@
+#mask_alert {width:100%;height:100%;position:fixed;top:0;left:0;filter:alpha(opacity=75);-moz-opacity:0.75;opacity:0.75;background-color:#000;z-index:998;display:none}
+#box_alert  {width:80%;left:10%;position:fixed;z-index:999;overflow:hidden;display:none;border-radius:2px;background:#fff;color:#333}
+#box_alert div:first-child{font-size:16px;border-bottom:#e83191 2px solid;height:60px;line-height:60px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#box_alert div:last-child{font-size:18px;line-height:50px;background-color:#FFF5F9}
+#box_alert div:last-child:hover{background-color:#ffbedd}

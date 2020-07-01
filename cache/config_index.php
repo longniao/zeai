@@ -1,0 +1,26 @@
+<?php /*www.zeai.cn ZEAI6.0高速缓存系统*/
+$_INDEX['indexTitle']='恩施有缘网.真实靠谱.婚恋相亲平台';
+$_INDEX['indexKeywords']='恩施相亲网，恩施相亲网.真实靠谱.婚恋相亲平台';
+$_INDEX['indexContent']='恩施本地实名证制征婚交友网站，覆盖恩施，建始，利川，宣恩。提供交友、征婚、婚介、相亲、约会、婚恋咨询等相亲服务，';
+$_INDEX['mBN_path1_s']='p/banner/2020/02/bn_1581072915q14_s.png';
+$_INDEX['mBN_path2_s']='p/banner/2020/02/bn_1581349895xq9_s.jpg';
+$_INDEX['mBN_path1_url']='';
+$_INDEX['mBN_path2_url']='';
+$_INDEX['mBN_path3_url']='';
+$_INDEX['mBN_path3_s']='p/banner/2019/01/bn_15488614588pu_s.jpg';
+$_INDEX['pcBN_path1_s']='p/banner/2019/02/bn_1550640464l2n_s.jpg';
+$_INDEX['pcBN_path1_url']='https://www.esyyw.com/';
+$_INDEX['pcBN_path2_url']='https://www.esyyw.com/';
+$_INDEX['pcBN_path3_url']='https://www.esyyw.com/';
+$_INDEX['pcBN_path2_s']='p/banner/2020/02/bn_1580533068mdb_s.jpg';
+$_INDEX['pcBN_path3_s']='p/banner/2020/02/bn_1580533068g6d_s.jpg';
+$_INDEX['iModuleU']=2;
+$_INDEX['iModuleU_num']=10;
+$_INDEX['iModuleU_bigmore']=1;
+$_INDEX['iModuleU_pc']=1;
+$_INDEX['iModuleU_pc_num']=10;
+$_INDEX['iMarquee']=1;
+$_INDEX['waterfall_photo']='m';
+$_INDEX['zeai_pplAD']='[{"i":"1","img":"","url":"","p":"3"},{"i":"2","img":"","url":"","p":"7"},{"i":"3","img":"","url":"","p":"0"}]';
+$_INDEX['index_private']='0';
+?>

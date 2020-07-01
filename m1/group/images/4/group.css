@@ -1,0 +1,75 @@
+@import url(../g.css);
+@charset "utf-8";
+body{font-size:12px;font-family:Verdana;margin:0px;color:#FF4B7E;}
+a{text-decoration: none;color:#666666;}
+a:hover {color:#D69662;text-decoration:underline} 
+a.title{text-decoration: none;color:#ffffff;}
+a.title:hover {text-decoration:underline;color:#ffffff;}
+a.titleselected{text-decoration: none;color:#663300;font-weight:bold;font-size:14px}
+a.titleselected:hover {text-decoration:underline;color:#D69662}
+.tiaose{color:#AC4E24}
+a.tiaose{text-decoration: none;color:#AC4E24;font-size:9pt;}
+a.tiaose:hover {text-decoration:underline;color:#D69662;font-size:9pt;}
+a.333333:link {text-decoration: none;color:#333333;}
+a.333333:visited {text-decoration: none;color: #666666;}
+a.333333:active {text-decoration: none;color: #333333;} 
+a.333333:hover {text-decoration:underline;color:#D69662;}
+.photo52X52{width:50;height:50;overflow: hidden;text-align:center;}
+.photo52X52 img, .resultImg img{width: auto !important;height:50px !important;} 
+.photo62X62{width: 60;height: 60;overflow: hidden;text-align:center;}
+.photo62X62 img, .resultImg img{width: auto !important;height: 60px !important;} 
+.photo150X150{width: 150px;height: 150px;overflow: hidden;text-align:center;}
+.photo150X150 img, .resultImg img {height: 150px !important;width: auto !important;} 
+td{ FONT-SIZE:9pt;color:#333333;font-family:"Arial,宋体";}
+.tdbg{ background:#F7F2F0}
+.tdbg2{ background:#F5E9DD}
+.tiaobgse{color:#F2D8BF}
+.yq{color:#EEAE7A}
+.tdbg3{background-image:url(tdbg.gif)}
+.tdbg4{ background:#DBBBAA}
+.fontselected{border-bottom:#cccccc 2px solid;color:#000000;}
+.input{FONT-SIZE: 9pt;color:#333333;background:#F7FBFD;border:#dddddd 1px solid;height:20px;}
+select{FONT-SIZE: 9pt;color:#333333;background:#F2FAFF;}
+textarea{FONT-SIZE: 9pt;color:#333333;background:#ffffff;border:#cccccc 1px solid;}
+.submit{border:0px;width:100px;height:31px;padding-bottom:4px;padding-top:2px\9;padding-bottom:0px\9;cursor:pointer;background:url("/images/btn.gif") -5px -30px no-repeat;color:#fff;font-size:14px;font-weight:bold}
+.submitxx{border:0px;width:46px;height:22px;padding-bottom:4px;padding-top:2px\9;padding-bottom:0px\9;cursor:pointer;background:url("/images/btn.gif") -177px -66px no-repeat;color:#fff;border:0px;font-size:12px}
+a.u666{text-decoration:underline;color:#666}
+a.u666:hover{color:#000}
+a.a666{text-decoration:none;color:#666;font-size:12px;font-family:Verdana}
+a.a666:hover{text-decoration:underline;color:#000}
+img{border:0px}
+.clear{clear:both;height:0;width:1px;font-size:1px;visibility:hidden;}
+.clearboth{clear:both;}
+/*----photo_s----*/
+.U110MP_1,.U110MP_2,.U65MP_1,.U65MP_2,.U41MP_1,.U41MP_2,.U100MP_1,.U100MP_2{background:url("/images/nophoto.gif");color:#fff;cursor:pointer}
+.U110MP,.U65MP,.U41MP,.U100MP{text-align:center;margin:0px auto}
+.U110MP_text,.U65MP_text,.U41MP_text,.U100MP_text{color:#fff;background:#666;filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.6}
+
+.U110MP{width:110px;height:135px;cursor:pointer}
+.U110MP_1{background-position:left top}
+.U110MP_2{background-position:-110px top}
+.U110MP_text{font-size:14px;width:110px;height:24px;line-height:24px;margin-top:105px;margin-top:100px\0}
+.U110MP_no{font-size:14px;width:110px;height:20px;padding-top:85px;font-weight:bold;overflow:hidden}
+.U110MP img{width:110px;height:135px}
+
+.U65MP{width:65px;height:80px;cursor:pointer;border-top:1px solid #fff;border-bottom:1px solid #fff}
+.U65MP_1{background-position:-20px -155px}
+.U65MP_2{background-position:-105px -155px}
+.U65MP_text{width:65px;height:17px;line-height:17px;margin-top:60px;margin-top:55px\0}
+.U65MP_no{width:65px;height:32px;padding-top:35px;overflow:hidden;line-height:14px}
+.U65MP img{width:65px;height:80px}
+
+.U41MP{width:41px;height:50px;cursor:pointer;border-top:1px solid #fff;border-bottom:1px solid #fff}
+.U41MP_1{background-position:-20px -255px}
+.U41MP_2{background-position:-81px -255px}
+.U41MP_text{width:14px;margin:0px auto;padding-top:2px\9;background:999;margin-top:20px}
+.U41MP_no{width:41px;height:36px;padding-top:14px;overflow:hidden}
+.U41MP img{width:41px;height:50px}
+
+a.U100MP{text-decoration:none;display:block;padding:2px;border:1px solid #fff;margin:0px auto;width:100px;height:75px}
+a.U100MP:hover{border:1px solid #f60}
+.U100MP_1,.U100MP_2{width:100px;height:75px}
+.U100MP_1{background-position:left -325px}
+.U100MP_2{background-position:-120px -325px}
+.U100MP_text{width:100px;height:20px;line-height:20px;margin-top:50px;margin-top:45px\0}
+/*----photo_s end----*/

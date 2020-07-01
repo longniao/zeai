@@ -1,0 +1,7 @@
+@font-face {font-family: "iconfont2";
+  src: url('iconfont.eot?t=1564713207683'); /* IE9 */
+  src: url('iconfont.eot?t=1564713207683#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1564713207683') format('woff'),
+  url('iconfont.ttf?t=1564713207683') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1564713207683#iconfont') format('svg'); /* iOS 4.1- */
+}

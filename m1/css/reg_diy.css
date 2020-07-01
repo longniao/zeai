@@ -1,0 +1,103 @@
+body{background-color:#fff}
+.submain{width:100%;padding:50px 0 20px;top:0;text-align:center}
+.submain h3{width:85%;text-align:left;font-size:16px;color:#999;margin:0 auto}
+.goback{color:#333;z-index:889}
+.submain h1{width:100%;font-size:24px;position:relative;text-align:center}
+.submain ul li{width:80%;margin:0 auto;padding:0;display:block;text-align:center;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+
+
+.reg_diy{top:0;padding:0;text-align:center;padding:0}
+.Ugoback{color:#fff;z-index:1}
+
+.reg_diy .banner{position:relative;margin:0;max-height:250px}
+.reg_diy .banner img{width:100%;height:100%;max-height:216px;display:block;object-fit:cover;-webkit-object-fit:cover}
+.reg_diy form{margin:40px 0 90px;display:block}
+.reg_diy form dl{width:85%;margin:20px auto 0 auto;height:50px;border-bottom:#eee 1px solid;line-height:50px;text-align:left;overflow:hidden;background-color:#fff}
+.reg_diy form dl:first-child{margin:5px auto}
+.reg_diy form dl dt{width:10%;float:left}
+.reg_diy form dl dd{width:90%;float:left;position:relative}
+.reg_diy form dl dt i{display:inline-block;font-size:24px;color:#aaa;width:100%}
+.reg_diy form dl dt i.pass{font-size:26px;padding-left:-1px}
+.reg_diy form dl dd .input_login{width:95%;border:0;padding:0;margin:0;font-size:24px;height:30px;line-height:30px;box-sizing:border-box;margin-top:10px;background-color:#fff}
+.reg_diy form dl dd .input_login:-webkit-autofill{-webkit-box-shadow:0 0 0px 1000px white inset !important}
+
+.reg_diy dd.yzmF{position:relative}
+.reg_diy dd.yzmF a.yzmbtn{width:100px;display:block;line-height:24px;height:24px;position:absolute;font-size:16px;color:#666;text-align:center;top:8px;right:1px;background-color:#fff;border-left:#e1e1e1 1px solid}
+.reg_diy dd.yzmF a.yzmbtn:hover{color:#F7564D;}
+.reg_diy dd.yzmF a.yzmbtn font{color:#f00}
+.reg_diy dd.yzmF a.yzmbtn b{color:#f00;font-weight:normal;margin-right:2px}
+.reg_diy dd.yzmF a.disabled{color:#999;border:0;padding:0;margin:0;font-size:12px}
+.reg_diy .size5,.reg_diy .mbkind3{width:80%;display:block;border-radius:30px;margin:30px auto 30px auto;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.reg_diy .size5{border:#F7564D 1px solid;background-image: -webkit-linear-gradient(left,#E83191,#fc5aaf,#E83191);}
+.reg_diy .mbkind3btn{background:#FF6F6F;background-image: -webkit-linear-gradient(left,#F7564E,#fe7e7e,#F7564E);}
+.reg_diy .clause{margin:30px auto 0 auto;text-align:center}
+.reg_diy .checkskin-label i{border-radius:20px;border-color:#E83191;margin-left:10px}
+.reg_diy .checkskin:checked + label.checkskin-label i{background-color:#E83191;border-color:#E83191}
+.reg_diy .mbkind3 .checkskin-label i{border-color:#FF6F6F}
+.reg_diy .mbkind3 .checkskin:checked + label.checkskin-label i{background-color:#FF6F6F;border-color:#FF6F6F}
+.reg_diy .tiaose{color:#E83191}
+.reg_diy .mbkind3 .tiaose{color:#FF6F6F}
+.reg_diy .ifreg2{padding:80px 0 0 0;font-size:16px;line-height:200%}
+.reg_diy .ifreg2 .size5{margin-top:40px}
+
+.sex{padding:50px 0 0}
+.sex i.ico{line-height:140px;}
+.sex em{text-align:center;padding:0 0}
+.sex h2{font-size:18px}
+.sex h4{color:#999;font-size:14px}
+.sex em div{margin:30px auto}
+
+.submain i.sexico{font-size:120px;}
+.submain .sex1 i{font-size:125px;color:#51B7EC}
+.submain .sex2 i{font-size:125px;color:#E75385}
+.submain .kind i{font-size:100px}
+.submain .vtphoto{margin:20px auto;text-align:center}
+.submain .vtphoto i.ico{line-height:140px;}
+
+
+.reg_text{background-color:#fff}
+.reg_text dl{width:80%;margin:20px auto 0 auto;height:50px;border-bottom:#eee 1px solid;line-height:50px;text-align:left;overflow:hidden;background-color:#fff}
+.reg_text dl:first-child{margin:5px auto}
+.reg_text dl dt{width:9%;float:left;margin-right:1%;text-align:left}
+.reg_text dl dd{width:85%;float:right;position:relative}
+.reg_text dl dt i{display:inline-block;font-size:24px;color:#aaa;width:100%}
+.reg_text dl dd .input_login{width:95%;border:0;padding:0;margin:0;font-size:24px;height:30px;line-height:30px;box-sizing:border-box;margin-top:10px;background-color:#fff}
+.reg_text dl dd .input_login:-webkit-autofill{-webkit-box-shadow:0 0 0px 1000px white inset !important}
+.reg_text .size4{width:80%;border-radius:30px;margin-top:40px}
+.reg_text .textarea{width:80%;height:100px;margin:30px auto 0 auto;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;padding:8px}
+.modlist ul li{text-align:left}
+
+.photo_s{background-color:#fff}
+.photo_s .icoadd{border:#ffdcea 2px solid;height:125px;margin:30px auto 10px auto;position:relative;background-color:#fdf7f9}
+.photo_s .icoadd,.icoadd img{width:100px;height:125px;display:block;object-fit:cover;-webkit-object-fit:cover}
+.photo_s .icoadd i.ico{line-height:60px;font-size:50px;text-align:center;color:#FFB8D5;border-radius:2px;margin-top:20px}
+.photo_s .icoadd h5{position:absolute;width:100%;bottom:15px;text-align:center;color:#666}
+.photo_s  h6{color:#999;margin:20px auto;font-size:14px}
+.photo_s .reg_p{width:90%;margin:5px auto 30px auto}
+.photo_s .reg_p li{width:20%;float:left;text-align:center;color:#999}
+.photo_s .reg_p li img{width:90%}
+.photo_s .reg_p li .ico{display:block;line-height:20px;font-size:16px;margin:0}
+.photo_s .reg_p li .cuo{color:#FF4400}
+.photo_s #photo_sBox{display:none}
+
+#areaid .ios-select-widget-box.olay,
+#areaid .ios-select-widget-box ul,
+#areaid .ios-select-widget-box.olay > div,
+#areaid .ios-select-widget-box header.iosselect-header{background:none}
+#areaid .iosselect-header{display:none}
+#areaid .ios-select-widget-box {padding-top:0}
+#areaid .ios-select-widget-box .cover-area1 {top:105px}
+#areaid .ios-select-widget-box .cover-area2 {top:139px}
+#areaid .ios-select-widget-box .sure2{display:block;margin:40px auto 20px auto;border-radius:30px}
+#areaid .ios-select-widget-box.olay > div {position:fixed;bottom:0}
+
+#birthday .ios-select-widget-box.olay,
+#birthday .ios-select-widget-box ul,
+#birthday .ios-select-widget-box.olay > div,
+#birthday .ios-select-widget-box header.iosselect-header{background:none}
+#birthday .iosselect-header{display:none}
+#birthday .ios-select-widget-box {padding-top:0}
+#birthday .ios-select-widget-box .cover-area1 {top:105px}
+#birthday .ios-select-widget-box .cover-area2 {top:139px}
+#birthday .ios-select-widget-box .sure2{display:block;margin:40px auto 20px auto;border-radius:30px}
+#birthday .ios-select-widget-box.olay > div {position:fixed;bottom:0}

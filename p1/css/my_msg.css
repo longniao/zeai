@@ -1,0 +1,45 @@
+.myRC .sx{top:44px;padding:10px 0;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.myRC .sx dl{border-bottom:#f5f5f5 1px solid;position:relative;height:82px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.myRC .sx dl:hover{background-color:#f9f9f9}
+.myRC .sx dl dt,.myRC .sx dl dd{position:absolute;top:0;height:60px;padding:10px 0}
+.myRC .sx dl dt{width:60px;left:15px}
+.myRC .sx dl dt img{width:60px;height:60px;border-radius:30px}
+.myRC .sx dl dd{left:110px;width:100%;text-align:left}
+.myRC .sx dl dd h4{font-size:16px;display:inline-block;margin-top:3px}
+.myRC .sx dl dd h6{font-size:14px;color:#999;margin-top:5px;width:60%;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.myRC .sx dl dd h6 img{width:20px}
+.myRC .sx dl i.lock{left:55px;top:10px;width:24px;height:24px;border:#dedede 1px solid;line-height:20px;background-color:#fff;display:block;position:absolute;font-size:20px;border-radius:22px;color:#ddd;text-align:center}
+.myRC .sx dl span{right:165px;top:33px;color:#999;font-size:12px;position:absolute}
+.myRC .sx dl i.new{right:65px;top:10px;z-index:1;display:block;position:absolute;min-width:8px;padding:0 4px;height:16px;line-height:16px;font-size:12px;border-radius:12px;background-color:#f60;color:#fff;border:#fff 1px solid;text-align:center}
+.myRC .sx dl button{right:60px;top:23px;line-height:36px;height:36px;font-size:14px;border-radius:3px;background-color:#FD66B5;color:#fff;position:absolute;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.myRC .sx dl button:hover{background-color:#E83191}
+.myRC .sx dl button.ed{border:#FD66B5 1px solid;color:#FD66B5;background-color:#fff}
+.myRC .sx dl button.edhui{border:#ccc 1px solid;color:#888;background-color:#fff}
+.myRC .sx dl button.edlv{border:#55ac55 1px solid;color:#55ac55;background-color:#fff}
+.myRC .sx dl button.edhei{border:#000 1px solid;color:#000;background-color:#fff}
+.myRC .sx dl button.edlan{border:#037afe 1px solid;color:#037afe;background-color:#fff;line-height:34px}
+.myRC .sx dl button.disabled{border:#ddd 1px solid;color:#fff;background-color:#ddd}
+.myRC .sx dl button.R0{right:15px}
+.myRC .sx dl button i{line-height:12px;font-size:16px;margin-right:3px;display:inline-block}
+.myRC .sx dl button font{line-height:16px;display:inline-block}
+.myRC .sx dl button:hover i{animation:hishan .3s infinite}
+.myRC .sx dl b{position:absolute;right:15px;top:23px;cursor:pointer;color:#aaa}
+.myRC .sx dl b i{font-size:20px}
+.myRC .sx dl b:hover{color:#FD66B5}
+/*hi*/
+.myRC .sx .new_hi{left:65px;top:10px;width:10px;height:10px;background-color:#FF5722;display:block;position:absolute;border-radius:5px}
+.myRC .sx dl dt i.k1,.myRC .sx dl dt i.k4{width:60px;height:60px;line-height:60px;border-radius:30px;font-size:28px;color:#fff}
+.myRC .sx dl dt i.k1{background-color:#70d5ee;}
+.myRC .sx dl dt i.k4{background-color:#ff6767;font-size:36px}
+.myRC .sx dl i.k2,.myRC .sx dl i.k3{width:25px;height:25px;line-height:25px;border-radius:15px;bottom:10px;right:15px;position:absolute;color:#fff}
+.myRC .sx dl i.k2{background-color:#fcc56e}
+.myRC .sx dl i.k3{background-color:#ffa3a4}
+
+
+
+.tip_detail{padding:20px 30px 30px 30px;line-height:200%;font-size:18px}.linebox{margin:30px 0 0;z-index:0}
+.tip_detail h1{font-size:24px;font-weight:bold;display:block;text-align:left}
+.tip_detail .msgC{margin-top:30px;text-align:left}
+.tip_detail .msgC .aHUI,.tip_detail .msgC .aQING{line-height:32px;display:inline-block;border-radius:32px;padding:0 15px;font-size:14px;border-color:#FD66B5;color:#FD66B5;background-color:#fff}
+.tip_detail .msgC .aHUI:hover,.tip_detail .msgC .aQING:hover{border-color:#FD66B5;color:#fff;background-color:#FD66B5}
+

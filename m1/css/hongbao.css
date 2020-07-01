@@ -1,0 +1,90 @@
+@import url(my.css?1);
+main{margin:10px auto;text-align:left;background-color:#fff;padding:15px 0;border-top:#e4e4e4 1px solid;border-bottom:#e4e4e4 1px solid;clear:both;overflow:auto}
+/*tabmenu*/
+.hbtabmenu_5{width:100%;margin:0 auto 20px auto;clear:both;overflow:auto;background-color:#fff;z-index:1}
+.hbtabmenu_5::-webkit-scrollbar{width:0;height:0}
+.hbtabmenu_5 a{width:16%;height:48px;line-height:48px;display:block;float:left;border-bottom:#e4e4e4 1px solid;font-size:16px;color:#8d8d8d;background-color:#fff}
+.hbtabmenu_5 a span{width:40px;display:block;margin:12px auto 0 auto;line-height:18px}
+.hbtabmenu_5 a:hover,.hbtabmenu_5 a.ed{border-color:#E83191;color:#E83191}
+.hbtabmenu_5 a:nth-child(2),.hbtabmenu_5 a:nth-child(3){width:26%;}
+.index_list{width:94%;margin:0 auto}
+.index_list dl{width:100%;margin-bottom:20px;padding-bottom:20px;clear:both;overflow:auto;border-bottom:#e7e7e7 1px solid}
+.index_list dl dt,.index_list dl dd{float:left}
+.index_list dl dt{width:80px}
+.index_list dl dt font{text-align:center;display:block;margin-top:5px}
+.index_list dl dt img{width:60px;height:60px;border-radius:30px;display:block}
+.index_list dl dt a:last-child{display:inline-block;padding:0 5px;line-height:18px;font-size:12px;}
+.index_list dl dt a:last-child:hover{color:#e75385}
+.index_list dl dd{width:-webkit-calc(100% - 80px);text-align:left;float:right}
+.index_list dl dd h2{font-size:14px;color:#f60}
+.index_list dl dd h2 font{display:inline-block;color:#fff;padding:0 5px;line-height:24px;margin-right:15px;position:relative;background-color:#EF5459}
+.index_list dl dd h2 font:after{display:block;content:'';width:0;height:0;position:absolute;top:0;right:-6px;border-top:12px solid transparent;border-bottom: 12px solid transparent;border-left:6px solid #EF5459}
+.index_list dl dd h2 font.kind3{background-color:#45C01A}
+.index_list dl dd h2 font.kind3:after{border-left-color:#45C01A}
+.index_list dl dd h2 span{margin-left:20px;color:#999}
+.index_list dl dd h1{max-width:620px;font-size:16px;line-height:120%;margin:18px 0 10px 0}
+.index_list dl dd a{background-color:#EF5459;width:70px;line-height:28px;color:#fff;display:block;text-align:center;border-radius:16px;float:right}
+.index_list dl dd a:hover{background-color:#d5383d}
+.lan{color:#06c}.lan:hover{color:#f60}
+.hong{color:#FF5494}.hong:hover{color:#f60}
+
+/*detail*/
+.detail{background-color:#fff;width:100%;padding:30px 0;text-align:left;position:relative}
+.detail span{height:30px;display:inline-block;font-size:14px;position:absolute;color:#999;top:0px;right:20px;padding-left:30px}
+.detail span:before{position:absolute;left:10px;top:3px;content:'';width:14px;height:14px;background-position:-292px -237px;}
+.hbinfo,.hbmate{clear:both;overflow:auto;text-align:center;font-size:12px;color:#999;padding-top:20px}
+.hbinfo font{color:#f00;margin:0 5px}
+.hbmate font{display:inline-block;color:#fff;padding:0 5px;line-height:24px;margin-right:15px;position:relative;background-color:#ff9600;}
+.hbmate font:after{display:block;content:'';width:0;height:0;position:absolute;top:0;right:-6px;border-top:12px solid transparent;border-bottom: 12px solid transparent;border-left:6px solid #ff9600}
+.hbbox{width:100%;height:100px;position:relative;margin:50px auto 50px auto;background-color:#F3F0EC;
+background:linear-gradient(#E9E2DB, #f2f0ee 30%, #f2f0ee, #f2f0ee 30%,#f2f0ee,#E9E2DB); /*css3*/
+background:-o-linear-gradient(left,#E9E2DB, #f2f0ee 30%, #f2f0ee, #f2f0ee 30%,#f2f0ee,#E9E2DB);
+background: -webkit-linear-gradient(left,#E9E2DB, #f2f0ee 30%, #f2f0ee, #f2f0ee 30%,#f2f0ee,#E9E2DB);/*chrome*/}
+.hbbox a{width:200px;height:200px;line-height:200px;border-radius:110px;overflow:hidden;position:absolute;left:36%;left:-webkit-calc(50% - 110px);bottom:-60px;background-color:#fc0;border:#fff 10px solid;cursor:pointer;text-align:center}
+.hbbox a:hover{background-color:#ff0;animation:hbshan .1s infinite}
+@keyframes hbshan{0%{transform:rotate(0deg)}25%{transform:rotate(-1deg)}50%{transform:rotate(0deg)}75%{transform:rotate(1deg)}100%{transform:rotate(0deg)}}
+.hbbox a img{width:150px;height:111px;display:block;margin:46px 0 0 25px}
+.hbbox a.ed{background-color:#E9E2DB;color:#666}
+.hbbox a.ed img{width:150px;height:119px;margin-top:40px}
+.hb_content{text-align:center;color:#666;padding-top:20px}
+.linee{width:100%;height:11px;border-bottom:#c0b2a3 1px solid;margin:40px 0 40px;text-align:center}
+.linee .span{font-size:18px;color:#A28362;display:inline-block;background-color:#E9E2DB;padding:0 15px;border-radius:20px}
+.shang{background:#fff}
+.shang a{background-color:#f9f9f9;border:#dfdfdf 1px solid;left:-webkit-calc(50% - 104px);margin-bottom:10px}
+.shang a #btnshang{color:#fff;font-size:18px;width:100px;height:100px;line-height:100px;border-radius:50%;margin:48px auto 0 auto;padding:0;background-color:#E75385;-webkit-transition:all .5s;-moz-transition:all .5s;transition:all .5s }
+.shang a #btnshang:hover{background-color:#AF2555}
+.detail ul{width:100%;margin:0 auto;margin-top:20px;background:#fff;min-height:200px;clear:both;overflow:hidden}
+.detail ul li{float:left;width:25%;padding:10px 0 0;text-align:center}
+.detail ul li a{width:100%;display:block}
+.detail ul li a img{width:60px;height:60px;border-radius:50%;-webkit-transition:all .2s;-moz-transition:all .2s;transition:all .2s;margin:0 auto}
+.detail ul li a:first-child{height:122px;}
+.detail ul li a h5{line-height:20px;color:#8d8d8d;padding-top:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-webkit-transition:all .2s;-moz-transition:all .2s;transition:all .2s;margin:0 auto;font-weight:normal}
+.detail ul li a:hover h5{color:#E75385}
+.detail ul li a h5 font{color:#f00}
+.detail ul li a:hover img{width:65px;height:65px;filter:alpha(opacity=80);-moz-opacity:0.8;opacity:0.8}
+.detail ul .nodatatips{margin-top:15px}
+
+.detail table{width:94%;margin:0 auto;border-collapse:collapse}
+.detail table td{font-size:14px}
+.detail table tr:first-child td:first-child{width:80px}
+.detail table .select{width:90%}
+
+a.hfbtn{position:absolute;top:6px;right:10px;width:90px;line-height:32px;text-align:center;border-radius:2px;color:#fff;font-size:14px;background-color:rgba(0,0,0,0.2);z-index:10}
+a.hfbtn:hover{background-color:rgba(0,0,0,0.1)}
+
+
+/*QD*/
+@-webkit-keyframes rotate{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-ms-transform:rotate(0deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);-ms-transform:rotate(180deg);}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);-ms-transform:rotate(360deg);}}
+.rotate {-webkit-animation:rotate 8s infinite linear;animation:rotate 8s infinite linear;-ms-animation:rotate 8s infinite linear}  
+@-webkit-keyframes scale{0%{-webkit-transform:scale(4,4);transform:scale(4,4);-ms-transform:scale(4,4);}100%{-webkit-transform:scale(1,1);transform:scale(1,1);-ms-transform:scale(1,1)}}
+.scale {-webkit-animation:scale 0.3s both;animation:scale 0.3s both;-ms-animation:scale 0.3s both}  
+@keyframes rotate{0%{transform:rotate(0deg);-ms-transform:rotate(0deg)}50%{transform:rotate(180deg);-ms-transform:rotate(180deg);}100%{transform:rotate(360deg);-ms-transform:rotate(360deg);}}
+@keyframes scale{0%{transform:scale(4,4);-ms-transform:scale(4,4);}100%{transform:scale(1,1);-ms-transform:scale(1,1)}}
+#mask_qd {width:100%;height:100%;position:fixed;top:0;left:0;filter:alpha(opacity=80);-moz-opacity:0.80;opacity:0.80;background-color:#000;z-index:888;display: none}
+#mask_qd .gif {position:fixed;width:600px;height:600px;left:-webkit-calc(50% - 300px);left:calc(50% - 300px);top:0;background-image:url('/images/qd_big.png');background-size:100%;background-repeat:no-repeat;background-position:center}
+#qdokbox{position:fixed;left:calc(50% - 100px);left:-webkit-calc(50% - 100px);top:calc(50% - 100px);top:-webkit-calc(50% - 100px);width:200px;height:200px;overflow:hidden;border-radius:10px;background-color:#FD8B3C;display:none;z-index:999;box-shadow:0 0 25px rgba(253,215,77,1);background-image: -webkit-linear-gradient(top, #FDD74D , #FD4E2E ); background-image:-ms-linear-gradient(top, #FDD74D , #FD4E2E );cursor:pointer}
+#qdokbox .qdok{width:150px;height:150px;margin:20px auto;border-radius:80px;background-color:#fff;border:#FDB633 5px solid}
+#qdokbox .qdok h1{font-size:32px;color:#FD5010;font-weight:bold;margin-top:35px}
+#qdokbox .qdok .hr{width:80%;height:1px;margin:10px auto;background:-webkit-linear-gradient(left,#fff,#FDAC43,#fff);}
+#qdokbox .qdok h4{color:#999;font-size:12px}
+#qdokbox .qdok h4 font{color:#f60;font-size:18px}

@@ -1,0 +1,95 @@
+body{background-color:#fff;overflow:hidden;}
+.chatbox{-webkit-user-select:none;-moz-user-select:none}
+.chatbox .L,.chatbox .R{height:550px;float:left}
+.chatbox .L{width:250px;border-right:#eee 1px solid;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.chatbox .R{width:600px}
+.chatbox .L .Ltop,.chatbox .R .Rtop{height:55px;border-bottom:#eee 1px solid}
+
+.chatbox .Ltop{width:250px;border-bottom:#eee 1px solid}
+.chatbox .Ltop li i{font-size:26px}
+.chatbox .Ltop li font{font-size:12px;display:inline-block;min-width:6px;min-width:14px;text-align:center;padding:0 3px;height:20px;line-height:20px;border-radius:10px;background-color:#30CEF5;color:#fff;position:absolute;top:12px;right:5px}
+
+
+.chatbox .Luinfo{width:100%;height:495px;position:relative;left:0;top:55px;text-align:left;overflow:auto;overflow-x:hidden;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box} 
+.chatbox .Luinfo .defuinfo{position:relative;left:0;top:0}
+.chatbox .Luinfo .defuinfo p{width:60px;height:60px;border-radius:30px;overflow:hidden;position:absolute;left:15px;top:25px;display:block}
+.chatbox .Luinfo .defuinfo p img{width:60px} 
+.chatbox .Luinfo .defuinfo span{width:150px;font-size:12px;color:#999;position:absolute;left:90px;top:15px}
+.chatbox .Luinfo .defuinfo span h4{width:140px;font-size:14px;color:#666;margin:8px 0 5px 0;font-weight:bold;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.chatbox .Luinfo h2{position:relative;left:0;top:110px;line-height:44px;font-size:14px;background-color:#fafafa;text-align:left;padding-left:15px}
+.chatbox .Luinfo .defphoto{position:relative;left:0;top:130px}
+.chatbox .Luinfo .defphoto li{width:60px;height:60px;float:left;margin:10px 0 0 17px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;filter:alpha(opacity=30);-moz-opacity:0.3;opacity:0.3}
+.chatbox .Luinfo .defphoto li img{width:100%;height:100%;border-radius:5px;cursor:zoom-in}
+.chatbox .Luinfo .defphoto li.ed,.chatbox .Luinfo .defphoto li:hover{filter:alpha(opacity=100);-moz-opacity:1;opacity:1}
+.chatbox .Luinfo .defphoto .nophoto {font-size:12px;color:#ccc;text-align:center}
+.chatbox .Luinfo .defphoto .nophoto i.ico{font-size:50px;color:#eee;display:block;margin-bottom:0px}
+
+.chatbox .Rtop{line-height:55px;color:#bbb;text-align:left;padding-left:15px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.chatbox .Rtop b{line-height:24px;padding:0 12px;border-radius:12px;margin-left:10px;display:inline-block;background-color:#E83191;color:#fff;font-weight:normal;font-size:12px;cursor:pointer}
+.chatbox .Rtop .giftbtn{text-align:center;width:32px;height:32px;line-height:32px;border-radius:16px;background-color:#FD9F23;color:#fff;float:right;margin:11px 20px 0 0;cursor:pointer}
+.chatbox .Rtop .giftbtn{animation:hishan .3s infinite}
+.chatbox .Rtop .giftbtn .ico{font-size:18px;line-height:30px}
+.chatbox .Rtop .giftbtn:hover{animation:none;background-color:#f70}
+
+.chatbox .Rmsg{height:435px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.chatbox .Rwrite{padding:0 10px;height:60px;border-top:#eee 1px solid;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;position:relative}
+.chatbox .Rwrite .bqbtn{width:30px;height:30px;line-height:59px;float:left;display:inline-block;margin-right:10px;cursor:pointer}
+.chatbox .Rwrite .bqbtn .ico{font-size:30px;color:#999}
+.chatbox .Rwrite .bqbtn:hover .ico{color:#E83191}
+.chatbox .Rwrite .content{width:465px;background-color:#f9f9f9;padding:0 10px;float:left;text-align:left;height:36px;line-height:36px;border-radius:2px;overflow:hidden;font-size:16px;border:#eee 1px solid;margin:11px 0 0 0;-webkit-appearance:none;-webkit-user-select:text;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.chatbox .Rwrite .content:hover{border-color:#ddd}
+.chatbox .Rwrite .content img{width:24x;height:24px;margin:0 4px 0 0;vertical-align:middle}
+.chatbox .Rwrite .sendbtn{width:60px;height:36px;line-height:36px;display:block;color:#fff;border-radius:2px;background-color:#E83191;font-size:16px;float:right;margin:11px 5px 0 0}
+
+#bq{width:100%;height:180px;position:absolute;left:0;bottom:62px;display:none;background-color:#fff;overflow:auto;overflow-y:scroll;border-top:#eee 1px solid;overflow:hidden}
+#bq #bqlist{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;-webkit-justify-content:space-around;justify-content:space-around;padding-top:4px}
+#bq #bqlist img{display:block;float:left;width:26px;height:26px;margin:8px 10px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+#bq #bqlist img:hover{background-color:#FFDAEE;padding:2px;border-radius:6px;cursor:pointer}
+
+#loadmore{position:absolute;top:70px;left:483px;display:none;width:120px;height:20px;color:#fff;font-size:14px;line-height:20px;background-color:#666;border-radius:12px;box-shadow:0 5px 10px rgba(0,0,0,0.1)}
+#loadmore:hover{background-color:#000}
+/********msg*********/
+#msg{width:100%;overflow:auto;overflow-x:hidden;TABLE-LAYOUT:fixed; WORD-BREAK:break-all}
+#msg{overflow-y:auto;-webkit-user-select:none;-moz-user-select:none;}
+#msg dl{width:95%;margin:20px auto;clear:both;overflow:hidden}
+#msg dl dt,#msg dl dd{float:left;border-radius:20px}
+#msg dl dt{width:40px;height:40px;background-position:0px -158px;background-color:#E0E0E0}
+#msg dl dt img{width:40px;height:40px;border-radius:20px}
+#msg dl dt .imgbdr1{background-color:#E6F4FE}
+#msg dl dt .imgbdr2{background-color:#FCEFF4}
+#msg dl dd{background-color:#DCFBFC;margin-left:15px;font-size:14px;color:#000;line-height:20px;padding:11px;text-align:left;position:relative;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;
+max-width:calc(100% - 81px);max-width:-webkit-calc(100% - 77px);min-width:20px;min-height:20px}
+#msg dl dd img{width:26px;height:26px}
+#msg dl dd:before{content:"";position:absolute;right:100%;top:13px;width:0;height:0;border-top:7px solid transparent;border-right:8px solid #DCFBFC;border-bottom:7px solid transparent}
+#msg .my dt,#msg .my dd{float:right}
+#msg .my dd{background-color:#fae8f2;margin-left:0;margin-right:15px;}
+#msg .my dd:before{border:0px}
+#msg .my dd:after{content:"";position:absolute;left:100%;top:13px;width:0;height:0;border-top:7px solid transparent;border-left:8px solid #fae8f2;border-bottom:7px solid transparent}
+@-webkit-keyframes playVoice {0% {width:3px;}34% {width:6px;}67% {width:10px;}100% {width:18px;}}
+#msg dl dd em .voiceIcon{position:absolute;width:18px;height:20px;left:10px;right:initial;border-radius:10px;background-image:url("../../res/voicePlayLeft.png");background-repeat:no-repeat;background-size:auto 100%;background-position:left center;}
+#msg .my dd em .voiceIcon{right:10px;left:initial;background-image:url("../../res/voicePlayRight.png");background-position:right center}
+#msg  dl dd em .voiceIcon.play {-webkit-animation:playVoice 1s infinite}
+#msg  dl dd em .voiceSec {position:absolute;font-size:14px;right:-20px;bottom:10px;color:#999}
+#msg .my dd em .voiceSec {left:-25px}
+#msg span.time{display:block;width:120px;line-height:20px;background-color:#d1d1d1;color:#fff;margin:15px auto;font-size:12px;border-radius:10px;text-align:center}
+#msg .firsttips{padding:4px 15px;display:inline-block;line-height:20px;background-color:#ddd;color:#fff;margin:65px auto 0 auto;font-size:12px;border-radius:2px;text-align:center}
+#msg dl dd span.lock{color:#909eb0;cursor:pointer}
+#msg dl dd span.lock a{color:#09f}
+#msg dl dd span.lock a i{font-size:18px}
+
+
+/********/
+/*sx*/
+.Luinfo .timeulist{top:44px;padding:10px 0;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.Luinfo .timeulist dl{border-bottom:#f5f5f5 1px solid;position:relative;height:70px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;cursor:pointer}
+.Luinfo .timeulist dl dt,.Luinfo .timeulist dl dd{position:absolute;top:0;height:50px;padding:10px 0}
+.Luinfo .timeulist dl dt{width:50px;left:15px}
+.Luinfo .timeulist dl dt img{width:50px;height:50px;border-radius:50px}
+.Luinfo .timeulist dl dd{left:80px;width:100%;text-align:left}
+.Luinfo .timeulist dl dd h4{font-size:14px;width:100px;display:inline-block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.Luinfo .timeulist dl dd h6{color:#999;margin-top:3px;width:60%;display:inline-block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.Luinfo .timeulist dl dd h6 img{width:20px}
+.Luinfo .timeulist dl span{color:#999;font-size:12px;position:absolute;right:15px;top:15px}
+.Luinfo .timeulist dl i.new{display:block;position:absolute;min-width:8px;padding:0 4px;height:16px;line-height:16px;font-size:12px;border-radius:12px;background-color:#FD66B5;right:15px;bottom:12px;color:#fff;border:#fff 2px solid;text-align:center}
+

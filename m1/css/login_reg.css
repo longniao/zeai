@@ -1,0 +1,82 @@
+/*Login*/
+.login{bottom:0;background-color:#fff}
+body{position:absolute;background-color:#fff}
+.login .box h1{width:85%;text-align:left;font-size:30px;margin:20px auto 10px auto;font-weight:bold;position:relative}
+.login .box h3,.submain h3{width:85%;text-align:left;font-size:16px;color:#999;margin:0 auto}
+.login .box h1 a{font-size:16px;position:absolute;right:0px;top:10px}
+.login .box{padding:20px 0 0}
+.login .box dl{width:85%;margin:0 auto;height:50px;border-bottom:#eee 1px solid;line-height:50px;text-align:left;overflow:hidden;background-color:#fff}
+.login .box dl:first-child{margin:25px auto}
+.login .box dl dt{width:10%;float:left}
+.login .box dl dd{width:90%;float:left;position:relative}
+.login .box dl dt i{display:inline-block;color:#aaa;width:100%}
+.login .box dl:nth-child(1) dt i{font-size:24px}
+.login .box dl:nth-child(2) dt i{font-size:26px;padding-left:-1px}
+.login .box dl dd span{font-size:26px;color:#ccc;position:absolute;right:8px;top:2px}#reset,#reset_reg{font-size:20px;right:11px;display:none}
+.login .box dl dd .input_login{width:95%;border:0;padding:0;margin:0;font-size:24px;height:30px;line-height:30px;box-sizing:border-box;margin-top:10px;background-color:#fff}
+.login .box dl dd .input_login:-webkit-autofill{-webkit-box-shadow:0 0 0px 1000px white inset !important}
+.login .box .btn{margin-top:10px;-webkit-appearance:none;border-radius:32px}
+.login .box .hui{filter:alpha(opacity=30);-moz-opacity:0.3;opacity:0.3}
+.login .box .regfindpass{width:85%;margin:15px auto;font-size:12px;text-align:right}
+.login .box .login3{margin:30px 0}
+.login .box .login3 em{display:inline-block;width:50px;height:50px;line-height:50px;border-radius:25px;margin:20px 30px;color:#fff;font-size:28px;position:relative}
+.login .box .login3 em.qq{background-color:#51B7EC}
+.login .box .login3 em.weixin{background-color:#31C93C}
+.login .box .login3 em.mob{background-color:#FF5065;font-size:33px}
+.login .box .login3 em.uname{background-color:#E75385;font-size:34px}
+.login .box .login3 em font{width:70px;position:absolute;bottom:-40px;left:-10px;font-size:12px;color:#333;text-align:center}
+/*login_dl_yzm_get_html*/
+.login .yzmnumbox,.yzm .yzmnumbox {padding-top:40px;position:relative}
+.login .yzmnumbox input,.yzm .yzmnumbox input{-webkit-appearance:none;text-indent:14px;width:260px;hieght:40px;font-size:30px;letter-spacing:43px;display:block;;margin-left:-webkit-calc(50% - 113px);border:0;overflow:hidden;font-family:Arial;padding:0}
+.login .yzmnumbox li,.yzm .yzmnumbox li{text-align:center;font-size:24px;display:inline-block;margin:0 10px;width:40px;border:0;border-bottom:#313131 3px solid}
+.login #yzmbtn,.yzm #yzmbtn{background-color:#fff;border:0;font-size:14px;margin-top:50px;color:#999}
+.login #yzmbtn font,.yzm #yzmbtn font{color:#097AFE}
+.login .yzmerrstrbox,.yzm .yzmerrstrbox{height:14px}
+.login #yzmerrstr,.yzm #yzmerrstr{text-align:center;display:none;font-size:14px;color:#f00;height:14px}
+/*************REG************/
+.goback{color:#333;z-index:889}
+.submain{width:100%;padding:50px 0 20px;top:0}
+.submain h1{width:100%;font-size:24px;position:relative;text-align:center}
+.submain i.ico{font-size:120px;}
+.submain .sex1 i{font-size:125px;color:#51B7EC}
+.submain .sex2 i{color:#E75385}
+.submain ul li{padding:0;display:block;text-align:center;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.submain .vtphoto{margin:20px auto;text-align:center}
+.submain .vtphoto i.ico{line-height:140px;}
+
+.yzm .yzmnumbox {text-align:center;margin:0 auto}
+.yzm #yzmbtn{display:block;margin:50px auto 0 auto}
+.success,.forgetpwd_html{background-color:#fff;line-height:200%;font-size:14px;text-align:center}
+.success i.ico,.forgetpwd_html i.ico{font-size:60px;color:#5FB878;display:block;margin:30px auto}
+.success a.btn,.forgetpwd_html a.btn{margin:10px auto}
+.success h3,.forgetpwd_html h3{text-align:center}
+/*******/
+.forgetpwd dl{width:85%;margin:20px auto;height:50px;border-bottom:#eee 1px solid;line-height:50px;text-align:left;overflow:hidden;background-color:#fff}
+.forgetpwd dl:first-child{margin:25px auto}
+.forgetpwd dl dt{width:10%;float:left}
+.forgetpwd dl dd{width:90%;float:left;position:relative}
+.forgetpwd dl dt i{display:inline-block;color:#aaa;width:100%}
+.forgetpwd dl:nth-child(2) dt i{font-size:24px}
+.forgetpwd dl:nth-child(3) dt i{font-size:24px}
+.forgetpwd dl dd span{font-size:26px;color:#ccc;position:absolute;right:8px;top:2px}.forgetpwd #reset_fgt{font-size:20px;right:11px;display:none}
+.forgetpwd dl dd .input_login{width:95%;border:0;padding:0;margin:0;font-size:24px;height:30px;line-height:30px;box-sizing:border-box;margin-top:10px;background-color:#fff}
+.forgetpwd dl dd .input_login:-webkit-autofill{-webkit-box-shadow:0 0 0px 1000px white inset !important}
+.forgetpwd .btn{display:block;margin:40px auto;-webkit-appearance:none;border-radius:32px}
+.forgetpwd .hui{filter:alpha(opacity=30);-moz-opacity:0.3;opacity:0.3}
+.forgetpwd #yzmbtn{position:absolute;right:15px;top:10px;display:block;line-height:24px;border:0;padding-left:15px;color:#5FB878;background-color:#fff}
+.forgetpwd #yzmbtn font{color:#f00}
+/*******/
+.ios-select-widget-box.olay,
+.ios-select-widget-box ul,
+.ios-select-widget-box.olay > div,
+.ios-select-widget-box header.iosselect-header{background:none}
+.iosselect-header{display:none}
+.ios-select-widget-box {padding-top:0}
+.ios-select-widget-box .cover-area1 {top:105px}
+.ios-select-widget-box .cover-area2 {top:139px}
+.ios-select-widget-box .sure2{display:block;margin:40px auto 20px auto;border-radius:30px}
+.ios-select-widget-box.olay > div {position:fixed;bottom:0}
+/*******/
+.nodataSorry{text-align:center;color:#999;}
+.nodataSorry i.ico{font-size:80px;color:#aaa}
+.nodataSorry font{font-size:16;margin-top:20px;display:block}

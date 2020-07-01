@@ -1,0 +1,30 @@
+body{background-color:#F5F4F1}
+.masktop{width:100%;height:24px;line-height:24px;background:#F5F4F1;position:absolute;top:0;left:0}
+.zeaiSlide {left:5%;width:90%;height:100%;top:24px;height:100vh;position:fixed;-webkit-user-select:none;-moz-user-select:none;}
+.zeaiSlide .mbox{overflow:hidden}
+.zeaiSlide .mbox .zeaiC{position:absolute;top:0;left:0;width:100%;height:70%;background-color:#fff;border-radius:6px;text-align:center;border:#eee 1px solid;
+-webkit-transition:transform .5s ease-in;transition:transform .5s ease-in;/*-webkit-transition:top .5s;transition:top .5s;*/}
+.zeaiSlide .mbox .zeaiC a{display:block;width:100%;height:84%;border-radius:6px 6px 0 0;background-size:cover;background-position:center center;background-repeat:no-repeat}
+.zeaiSlide .mbox div:first-child{top:0;}
+.zeaiSlide .mbox div:last-child{transform:scale(.9,.9);top:30px}
+.zeaiC .uinfo{text-align:left;padding:5px 10px 10px 10px}
+.zeaiC .uinfo .nik{font-size:18px}
+.zeaiC .uinfo .data{display:block;font-size:14px;color:#999;margin-top:5px}
+.zeaiC i.ico{width:60px;height:60px;line-height:60px;border-radius:30px;position:absolute;top:15px;right:15px;font-size:40px;background-color:rgba(0,0,0,0.3);color:#fff;opacity:0}
+.zeaiSlide .slidbtn{width:100%;line-height:40px;position:absolute;top:73%;left:0;display:flex;display:-webkit-flex;justify-content:space-around}
+.zeaiSlide .slidbtn span{width:60px;height:60px;line-height:60px;display:inline-block;border-radius:40px;border:#EFECE8 5px solid;background-color:#fff}
+.zeaiSlide .slidbtn i{font-size:30px}
+.zeaiSlide .slidbtn .pass i{color:#D2D1CB}
+.zeaiSlide .slidbtn .gz i{color:#EC543F}
+.zeaiSlide .slidbtn .hi i{color:#FD45A7}
+@keyframes btn_s_b_s{0%{transform:scale(0.5)}50%{transform:scale(1.2)}100%{transform:scale(1)}}
+.btn_s_b_s{-webkit-animation-name:btn_s_b_s;animation-name:btn_s_b_s;-webkit-animation-duration:0.3s;animation-duration:0.3s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+.zeaiSlide .slidbtn span.ed{background-color:#EC543F}
+.zeaiSlide .slidbtn span.ed i{color:#fff}
+.index_more_big_yd{display:none}
+.index_more_big_yd img{width:88%;margin-top:100px}
+.nodatatips span.ico{font-size:60px;line-height:60px;display:block;color:#aaa;margin-bottom:10px}
+.zeaiC .uinfo .data{padding:0 6px 0 3px;margin:5px auto 0 auto;line-height:20px;height:20px;font-size:14px}
+.zeaiC .uinfo .data span:first-child{width:80%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.zeaiC .uinfo .data span:last-child{float:right;width:20%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:right}
+.zeaiC .uinfo .data span:last-child font.ico{display:inline-block;color:#49BEF5;font-size:16px;margin-right:4px}

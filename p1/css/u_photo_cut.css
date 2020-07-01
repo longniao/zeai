@@ -1,0 +1,33 @@
+@import url(p1.css?w.w.w.z.e.a.i.c.n);
+body{background:#fff}
+.pbox{margin:0 auto;text-align:center;padding:10px 0 0}
+.canvas{width:100%;overflow:hidden;cursor:pointer;border:#ddd 1px solid;position:relative;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;margin-top:20px}
+#show_img{border-width:0px;position:relative;filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=0)}
+#source_div{position:absolute;top:0px;left:0px}
+.cut_box{margin:0 auto;position:relative;z-index:7;top:0px;left:0px;opacity:0.70;filter:alpha(opacity=70);cursor:move}
+.cut_box ul{width:100%;background-color:#efefef}
+.cut_box ul:nth-child(2){background:none}
+.cut_box ul:nth-child(2) li{height:100%;float:left}
+.cut_box ul:nth-child(2) li:nth-child(1),.cut_box ul:nth-child(2) li:nth-child(3){background-color:#efefef}
+.cut_box ul:nth-child(2) li:nth-child(2){border:2px solid #c00;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.cutbtn{position:relative;top:0px;left:0;width:100%;height:50px}
+.cutbtn h3{display:block;width:200px;text-align:center;position:absolute;left:15px;top:20px}
+.cutbtn h3 a{display:block;margin:0 10px;width:30px;height:30px;border-radius:20px;float:left;background-color:#FD66B5;-webkit-transition:all .5s;-moz-transition:all .5s;transition:all .5s;position:relative}
+.cutbtn h3 a:hover{background-color:#E83191}
+.cutbtn h3 a:after{width:40px;position:absolute;bottom:-20px;left:-5px;color:#999;font-size:12px/*;text-align:center*/}
+.cutbtn h3 a:hover:after{color:#E83191}
+.cutbt1,.cutbt2,.cutbt3,.cutbt4{background:url("../img/photo_s_cut_adm.png");background-size:30px 120px;background-repeat:no-repeat}
+.cutbt1,.cutbt2,.cutbt3,.cutbt4{float:left}
+.cutbt1 {background-position:left top}
+.cutbt2 {background-position:left -30px}
+.cutbt3 {background-position:left -60px}
+.cutbt4 {background-position:left -90px}
+.cutbt1:after{content:'放大';}
+.cutbt2:after{content:'缩小';}
+.cutbt3:after{content:'右旋转';}
+.cutbt4:after{content:'左旋转';}
+.cutbt5 {width:180px;height:40px;line-height:40px;background:#E83191;display:block;color:#fff;font-size:18px;border-radius:22px;position:absolute;right:20px;top:20px}
+.cutbt5:hover{color:#fff;background:#f60}
+iframe{border:0px}
+#tips_box{position:absolute;max-width:180px}
+#tips_box .title{padding:10px}

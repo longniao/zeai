@@ -1,0 +1,96 @@
+/***************************************************
+Copyright (C) 2017
+未经本人同意，不得转载
+作 者:郭余林 QQ:797311 (supdes)
+***************************************************/
+ */
+@-moz-keyframes dothabottomcheck{0%{height:0;}100%{height:5px;}}
+@-webkit-keyframes dothabottomcheck{0%{height:0;}100%{height:5px;}}
+@keyframes dothabottomcheck{0%{height:0;}100%{height:5px;}}
+@keyframes dothatopcheck{0%{height:0;}50%{height:0;}100%{height:11px;}}
+@-webkit-keyframes dothatopcheck{0%{height:0;}50%{height:0;}100%{height:11px;}}
+@-moz-keyframes dothatopcheck{0%{height:0;}50% {height:0;}100%{height:11px;}}
+input[type=checkbox]{display:none}
+.check-box{
+	height:16px;
+	width:16px;
+	cursor: pointer;
+	background-color:transparent;
+	border:1px solid #dfdfdf;
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-transition: border-color ease 0.2s;
+	-o-transition: border-color ease 0.2s;
+	-webkit-transition: border-color ease 0.2s;
+	transition: border-color ease 0.2s;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff ), to(#efefef )); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #ffffff , #efefef );/* Chrome 10+, Saf5.1+ */
+    background-image:    -moz-linear-gradient(top, #ffffff , #efefef ); /* FF3.6 */
+    background-image:     -ms-linear-gradient(top, #ffffff , #efefef ); /* IE10 */
+    background-image:      -o-linear-gradient(top, #ffffff , #efefef ); /* Opera 11.10+ */
+    background-image:         linear-gradient(top, #ffffff , #efefef );
+}
+.check-box span{position:absolute;right:-53px;top:-3px}
+.check-box:hover{background-image:none}
+.check-box::before,.check-box::after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	position: absolute;
+	height:0;
+	width:1px;
+	background-color:#e14801;
+	display:inline-block;
+	-moz-transform-origin: left top;
+	-ms-transform-origin: left top;
+	-o-transform-origin: left top;
+	-webkit-transform-origin: left top;
+	transform-origin: left top;
+	border-radius: 0px;
+	content:'';
+	-webkit-transition: opacity ease .5;
+	-moz-transition: opacity ease .5;
+	transition: opacity ease .5;
+}
+/*勾左*/
+.check-box::after {
+	top:7px;
+	left:1px;
+	-moz-transform: rotate(-50deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+/*勾右*/
+.check-box::before {
+  top:10px;
+  left:5px;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+input[type=checkbox]:checked + .check-box,
+.check-box.checked {border-color:#E75385;background-image:none}
+input[type=checkbox]:checked + .check-box::after,
+.check-box.checked::after {
+	height:5px;
+	-moz-animation: dothabottomcheck 0.2s ease 0s forwards;
+	-o-animation: dothabottomcheck 0.2s ease 0s forwards;
+	-webkit-animation: dothabottomcheck 0.2s ease 0s forwards;
+	animation: dothabottomcheck 0.2s ease 0s forwards;
+}
+input[type=checkbox]:checked + .check-box::before,
+.check-box.checked::before {
+	height:14px;
+	-moz-animation: dothatopcheck 0.4s ease 0s forwards;
+	-o-animation: dothatopcheck 0.4s ease 0s forwards;
+	-webkit-animation: dothatopcheck 0.4s ease 0s forwards;
+	animation: dothatopcheck 0.4s ease 0s forwards;
+}

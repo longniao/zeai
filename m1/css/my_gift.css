@@ -1,0 +1,31 @@
+.my_gift{background-color:#fff;padding:15px;top:44px;bottom:44px}
+.my_gift ul{background:#fff;padding:0 0;clear:both;overflow:auto;border-bottom:#f2f2f2 1px solid}
+.my_gift ul li{width:33%;padding:15px 0;float:left;text-align:center}
+.my_gift ul li:hover{color:#f70;background-color:#f8f8f8}
+.my_gift ul li:hover h2{color:#f70}
+.my_gift ul li p{width:70px;height:70px;line-height:70px;margin:0 auto;text-align:center}
+.my_gift ul li img{max-width:70px;max-height:70px;margin-top:-3px;vertical-align:middle}
+.my_gift ul li h2{color:#666;font-size:14px;margin-top:5px;color:#8d8d8d;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.my_gift ul .label{width:75%;margin:0 auto;display:block;margin-top:10px;font-size:12px;color:#999;border:#ccc 1px dashed;padding:2px;border-radius:2px}
+.my_gift ul li:hover .label{background-color:#fff}
+.my_gift ul .btn2LV{margin-left:10px}
+.my_gift ul li h5{font-size:12px;color:#fd9f23;font-weight:normal;text-align:center}
+.my_gift ul li h5 i{display:inline-block;}
+.my_gift ul li h5 i.ico{display:inline-block;width:15px;height:15px;line-height:15px}
+.my_gift ul li h4{margin:5px 0 10px ;}
+.my_gift ul li h4 a{font-size:12px;color:#999}
+#my_gift_del{display:inline-block;width:40px;position:absolute;top:6px;right:15px;font-size:18px;color:#037afe;z-index:8}
+
+.tabmenuBAI{padding:0 15% 0 20%;top:0;height:44px;background:#fff;border-bottom:#eee 1px solid}
+.tabmenuBAI li{font-size:16px;color:#000}
+.tabmenuBAI i{height:4px;max-width:20px;min-width:auto;background:#FD45A7;left:14px}
+.tabmenuBAI .ed span{color:#FD45A7}
+/**/
+.btnbox .checkskin-label b{font-weight:normal}
+/**/
+.btnbox{width:100%;background-color:#fff;height:50px;position:fixed;bottom:0px;left:0px;line-height:50px}
+.btnbox li{float:left;height:50px;line-height:50px}
+.btnbox li:nth-child(2){width:70px;font-size:16px;margin:0 0 0 10px}
+.btnbox li:nth-child(3){width:100px;background-color:#ccc;color:#fff;font-size:18px;text-align:center;position:absolute;right:0;bottom:0}
+.btnbox li.on{background-color:#FD9F23}
+.btnbox .shadow{-webkit-transform:scaleY(0.3);transform:scaleY(0.3);height:1px;width:100%;background-color:#d8d8d8;display:block;-webkit-transform-origin:50% 0%;-ms-transform-origin:50% 0%;transform-origin:50% 0%;}

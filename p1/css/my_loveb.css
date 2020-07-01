@@ -1,0 +1,69 @@
+.my_loveb .ye{padding-top:40px}
+.my_loveb .ye .boxx{width:45%;margin:50px auto 30px auto}
+.my_loveb .ye .boxx .dt{width:40%;float:left;border-right:#eee 1px solid}
+.my_loveb .ye .boxx .dt i{color:#FEA2C8;font-size:100px;margin:-20px 0 -5px 0}
+.my_loveb .ye .boxx .dd{width:50%;float:right;text-align:left;margin-top:0px}
+.my_loveb .ye .LoveB{color:#F34CA4;font:normal 40px/40px Arial;margin-top:-12px;display:block}
+.my_loveb .ye .LoveB font{color:#8d8d8d;font-size:20px;padding-left:3px}
+.my_loveb .ye .LoveB:before{font-size:15px;display:block;color:#999;font-family:'Microsoft YaHei','SimSun','宋体'}
+.my_loveb .ye .loveBdetail{margin:50px auto;color:#8d8d8d;line-height:300%;text-align:left;display:inline-block}
+.my_loveb .ye .btnA{border-radius:30px;height:48px;line-height:48px;color:#fff;width:100%;font-size:16px;cursor:pointer;border:0;margin:40px auto;display:block;text-align:center;background-color:#FE66B5}
+.my_loveb .ye .btnA:hover{background-color:#E83191;color:#fff}
+
+
+.my_money .ye .LoveB:before{content:'我的余额'}
+.my_money .ye .boxx .dt i{color:#EE5A4E}
+.my_money .ye .LoveB{color:#EE5A4E}
+.my_money .ye .btnA{width:70%;background-color:#EE5A4E}
+
+.my_loveb_getTip dl,
+.my_money_getTip dl{width:100%;padding:0 20px;border-bottom:#eee 1px solid;box-sizing:border-box}
+.my_loveb_getTip dl dt,
+.my_loveb_getTip dl dd,
+.my_money_getTip dl dt,
+.my_money_getTip dl dd{display:inline-block;line-height:50px}
+.my_loveb_getTip dl dt,
+.my_money_getTip dl dt{width:75%;font-size:14px;text-align:left;color:#8d8d8d}
+.my_loveb_getTip dl dt font,
+.my_money_getTip dl dt font{color:#E75385}
+.my_loveb_getTip dl dd,
+.my_money_getTip dl dd{width:25%;text-align:right}
+.my_loveb_getTip dl dd button,
+.my_money_getTip dl dd button{border:#A1C655 1px solid;background-color:#fff;color:#A1C655;line-height:26px;height:26px;width:90px;border-radius:2px}
+/*tablelist*/
+.tablelist{width:100%;border-collapse:collapse;margin:20px auto;text-align:left}
+.list_title{color:#999;font-size:14px}
+.tablelist td{padding:20px 0;border-bottom:1px solid #eee;}
+.tablelist tr:hover{background-color:#f9f9f9}
+.tablelist tr td:first-child{padding-left:10px}
+/*cz*/
+.my_loveb .cz{width:60%;background:#fff;padding:10px 0 20px;text-align:left;margin:50px auto}
+.my_loveb .cz dl{width:100%;margin:0 auto;clear:both;overflow:auto;border-bottom:#eee 1px solid;padding:20px 0}
+.my_loveb .cz dl:last-child{border-bottom:0}
+.my_loveb .cz dl dt,.my_loveb .cz dl dd{float:left;display:block;line-height:30px}/*;background-color:#fc0*/
+.my_loveb .cz dl dt,.my_loveb .cz dl dd{line-height:40px}/*;background-color:#fc0*/
+.my_loveb .cz dl dt{width:20%;margin:0 5% 0 0;font-size:16px;color:#666;text-align:right}
+.my_loveb .cz dl dd{width:70%;text-align:left}
+.my_loveb .cz dl dd em{cursor:pointer;float:left;line-height:38px;padding:0 15px;margin:5px 10px 10px 0;border:#ddd 1px solid;color:#666;background-color:#f9f9f9;text-align:center;font-size:16px;position:relative;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-user-select:none;-moz-user-select: none;border-radius:3px}
+.my_loveb .cz dl dd em.ed{color:#A1C655;border:#A1C655 1px solid;background-color:#fff}
+.my_loveb .cz dl dd em .ibox {width:0;height:0;border-width:7px;border-style:solid;border-color:transparent #95C057 #95C057 transparent;position:absolute;bottom:0;right:0;display:none}
+.my_loveb .cz dl dd em .ibox h4{background-image:url('../../res/xgz.png');background-repeat:no-repeat;position:absolute;bottom:-7px;right:-8px;width:14px;height:14px;background-position:left right;background-size:14px 14px;}
+.my_loveb .cz dl dd em.ed .ibox{display:block}
+.my_loveb .cz dl dd span:first-child{color:#f60;font-size:18px}
+.my_loveb .cz dl dd span:last-child{color:#999;font-size:12px}
+.my_loveb .cz .tips{width:90%;font-size:14px;color:#999;padding:10px 0 ;line-height:200%;box-sizing:border-box;margin:0 auto;text-align:center}
+
+.my_money .cz{margin:90px auto}
+.my_money .tx{width:60%;margin:20px auto}
+.my_money .tx{padding:10px 0;margin-bottom:40px}
+.my_money .tx h3{margin:25px 0 10px 0;line-height:200%}
+.my_money .tx ul{border-bottom:#eee 0px solid;padding:5px 15px;box-sizing:border-box}
+.my_money .tx ul li{text-align:left;width:130px;padding:10px 0;margin:0 auto}
+.my_money .tx h5{color:#999;padding:20px 0 5px 0}
+.my_money .tx h6{color:#999;margin:10px auto 10px auto;text-align:left;width:100%;text-align:center;font-size:14px}
+
+/*关注*/
+.my-subscribe_box{padding:15px 15px 30px 15px;background-color:#fff;border-radius:12px;display:none}
+.my-subscribe_box img{width:240px;height:240px;padding:2px;border:#eee 1px solid;display:block;margin:20px auto}
+.my-subscribe_box h3{display:inline-block;line-height:20px;font-size:14px;color:#999;margin-top:0px}
+

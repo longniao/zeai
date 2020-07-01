@@ -1,0 +1,20 @@
+@import url(main.css);
+::-webkit-input-placeholder{color:#C0C4CC;font-size:16px}
+:-moz-placeholder{color:#C0C4CC;font-size:16px}
+::-moz-placeholder{color:#C0C4CC;font-size:16px}
+:-ms-input-placeholder{color:#C0C4CC;font-size:16px}
+body{padding:0px;margin:0px auto;color:#666;background: url(../images/admin_img/zeai_cn_bgV7.jpg?v7)}
+.tablee{width:480px;height:450px;box-shadow:0 5px 45px rgba(0,0,0,0.3);z-index:3;-webkit-user-select:none;position:absolute;left:50%;top:50%;margin-left:-240px;margin-top:-225px;overflow:hidden;border-radius:12px}
+.W240{width:300px;}
+.tablee td{padding:0;background-color:#fff;}
+.tablee td i{font-size:24px;color:#aaa;width:40px;height:50px;line-height:50px;border:0;border-bottom:#eee 1px solid;text-align:left;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;vertical-align:middle}
+.tablee td i.verify{font-size:22px;margin-left:2px}
+.login{border-radius:0;font-family:'Microsoft YaHei',Verdana;font-size:16px;background-color:#fff;height:50px;line-height:50px;border:0;border-bottom:#eee 1px solid;text-indent:0;-webkit-box-shadow:0 0 0px 1000px #fff inset !important;padding:0;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;vertical-align:middle}
+#verifycode{width:170px}
+.tablee td.tbg{background-color:#393D47}
+.tablee td.tbg .title{margin:0 auto;font-size:24px;color:#fff;margin-top:15px;margin-bottom:15px}
+.loginbtn{border-radius:3px;border:0px;height:48px;color:#fff;font-size:18px;margin:5px auto;font-family:'Microsoft YaHei';box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-transition:all .5s;-moz-transition:all .5s;transition:all .5s;cursor:pointer;display:block;width:340px;background-color:#FF5722}
+.loginbtn:hover{background-color:#e43700}
+.S16{padding-right:15px}
+.tablee td.btmm{font-size:12px;z-index:2;text-align:center;color:#666;padding-top:15px}
+#mask_box222{width:100%;height:100%;position:fixed;top:0;left:0;filter:alpha(opacity=75);-moz-opacity:0.75;opacity:0.75;background-color:#898989;z-index:1}

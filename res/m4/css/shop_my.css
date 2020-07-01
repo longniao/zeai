@@ -1,0 +1,62 @@
+.my_top{position:relative;width:90%;height:90px;margin:30px auto 0px auto;}
+.my_top p{position:absolute;left:0;top:0}
+.my_top p img{width:80px;height:80px;border-radius:50px;object-fit:cover;-webkit-object-fit:cover}
+.my_top p a{width:90%;display:inline-block;position:absolute;bottom:0;left:5%;line-height:24px;font-size:12px;border-radius:20px;color:#fff;background-color:#F7564D;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.my_top p a.hui{background-color:#999}
+.my_top p a.flag0{background-color:#30CEF5}
+.my_top p a.flag_2{background-color:#333}
+.my_top p a.flag_1{background-color:#1E9FFF}
+
+.my_top em{width:70%;left:90px;top:20px;position:absolute;text-align:left}
+.my_top em h2{width:100%;font-size:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.my_top em h5{font-size:14px;color:#666;margin-top:8px}
+
+.my_top .set a{width:17%;height:24px;line-height:24px;font-size:24px;float:right;margin:-10px -15px 0 0;position:relative}
+.my_top .set a b{display:block;position:absolute;width:9px;height:9px;border-radius:9px;background-color:#FF6F6F;right:10px;top:-5px;}
+.my_top .jt{position:absolute;right:0;top:40px;color:#999}
+
+.myb{margin-top:20px;height:60px}
+.myb a{width:33%;display:block;float:left;position:relative}
+.myb a:nth-child(2){width:34%}
+.myb a:after{content:'';display:block;width:1px;height:27px;position:absolute;right:0;top:15px;background-color:#ddd}
+.myb a:last-child:after{width:0}
+.myb a b{font-size:30px;font-family:Arial}
+.myb a span{display:block;margin-top:2px;font-size:14px;color:#999}
+
+.mybanner{width:92%;display:block;margin:25px auto 0 auto}
+
+.myorder{width:90%;margin:25px auto 0 auto;text-align:left}
+.myorder h1{font-size:18px;color:#000;font-weight:bold;position:relative}
+.myorder h1 a{position:absolute;right:0;color:#999;font-size:14px;font-weight:normal}
+.myorder em {margin-top:20px}
+.myorder em a{width:25%;float:left;height:90px;text-align:center;position:relative}
+.myorder em a i{font-size:36px;height:36px;line-height:36px}
+.myorder em a span{color:#999;display:block;line-height:30px;height:30px}
+.myorder em a b{display:inline-block;text-align:center;font-weight:normal;min-width:14px;padding:0 3px;height:20px;line-height:20px;font-size:12px;color:#fff;border-radius:12px;right:20px;top:-8px;position:absolute;background-color:#fff;color:#F7564D;border:#F7564D 1px solid}
+
+
+.mymenu{margin:100px 0 10px 0}
+.mymenu ul{text-align:left;clear:both;overflow:auto;padding:0 20px;border-top:#f0f0f0 12px solid}
+.mymenu ul:last-child{border-bottom:#f0f0f0 12px solid}
+.mymenu ul a{display:block;height:50px;line-height:50px;border-bottom:#f5f5f5 1px solid;overflow:hidden;-webkit-user-select:none;position:relative/*;text-align:right*/}
+.mymenu ul a:after{position:absolute;content:'\e601';width:10px;height:20px;display:block;font-size:15px;top:0px;right:3px;color:#c6c6c6;font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.mymenu ul a:last-child{border:0}
+.mymenu ul a i{width:30px;display:block;font-size:25px;line-height:24px;color:#FF6631;margin-right:10px;padding-top:13px;float:left}
+.mymenu ul a i.address{color:#06B6FF}
+.mymenu ul a i.share{color:#FF6F6F}
+.mymenu ul a i.shop{color:#AA8D49}
+.mymenu ul a i.yuyue{color:#E86BA3}
+.mymenu ul a i.product{color:#f60}
+.mymenu ul a i.yuyueadm{color:#16C2C2}
+.mymenu ul a i.order{color:#9266F9;font-size:26px;margin-left:-1px}
+.mymenu ul a i.hdcode{color:#f00}
+
+.mymenu ul a h4{margin-left:5px;font-size:16px;line-height:50px;height:50px;display:block;color:#000;float:left}
+.mymenu ul a span{width:60%;display:block;position:absolute;text-align:right;top:0;right:26px;color:#999;font-size:14px;padding-left:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/*.mymenu ul a b{width:8px;height:8px;border-radius:5px;display:block;background-color:#FF3B30;position:absolute;right:25px;top:21px}*/
+
+.mymenu ul a b{display:inline-block;text-align:center;font-weight:normal;min-width:14px;padding:0 3px;height:20px;line-height:20px;font-size:12px;color:#fff;border-radius:12px;background-color:#F7564D;right:25px;top:15px;position:absolute}
+
+
+.myblank{background-color:#fff;height:150px;;padding-top:20px}
+.myblank .my_exit{width:90%;border-color:#eee;color:#666;font-size:16px;margin-top:6px}

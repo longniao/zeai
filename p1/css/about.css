@@ -1,0 +1,35 @@
+.nav ul a.idx:after{border-bottom-color:#f0f0f0}
+.about{width:1200px;margin:40px auto}
+.about .L,.about .R{background-color:#fff;min-height:600px;border-radius:8px}
+.about .L{float:left;width:200px;}.about .L:hover,.about .R:hover{box-shadow: 0 4px 15px rgba(0,0,0,0.1)}
+.about .R{float:right;width:960px}
+
+.about .L .logo{width:86px;height:86px;background-color:#ccc;padding:2px;border-radius:60px;margin:50px auto 20px auto}
+.about .L .logo img{width:86px;height:86px;border-radius:60px;display:block;margin:0 auto;object-fit:cover;-webkit-object-fit:cover}
+.about .L .webname{font-size:22px;color:#9D9D9D}
+.about .L .engname{font-size:12px;color:#9D9D9D;margin:5px 0 40px 0}
+.about .L a{height:50px;line-height:50px;display:block;font-size:16px;color:#888;margin:15px 0}
+.about .L a:hover{color:#FF7700}
+.about .L a.ed{background-color:#FD66B5;color:#FD66B5;color:#fff}
+.about .L a.ed i{color:#fff}
+.about .L a i{margin-right:15px;color:#FF7700}
+
+.about .R h1{line-height:30px;font-size:22px;color:#333;font-weight:bold;padding-top:30px;margin-bottom:10px}
+.about .R h1:after{content:'';display:block;width:30px;margin:0 auto;height:4px;background-color:#FD66B5;border-radius:2px;margin-top:6px}
+.about .R .us,.about .R .news_detail{word-wrap:break-word;width:94%;padding:10px 30px 60px 30px;font-size:16px;line-height:200%;margin:20px auto 0 auto;text-align:left;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;clear:both;overflow:auto}
+
+.contact{padding:10px 0 100px}
+.contact li{width:500px;display:block;font-size:16px;line-height:50px;color:#333;margin:15px auto;text-align:center;text-align:left;box-sizing:border-box}
+.contact li i{width:40px;height:40px;line-height:40px;font-size:20px;border-radius:40px;background-color:#FEA2C8;color:#fff;text-align:center;margin-right:23px}
+.contact li img{vertical-align:middle;margin-left:10px}
+.contact .kfwx{margin-top:30px}
+.contact .kfwx img{width:200px;border:#eee 1px solid;padding:10px}
+.contact .kfwx h5{font-size:14px;color:#666;margin-top:10px}
+
+.news{padding:10px 60px 100px 60px}
+.news a{height:60px;line-height:60px;display:block;font-size:16px;border-bottom:#eee 1px solid;text-align:left}
+.news a:hover{color:#FD66B5}
+.news a span{float:right;color:#999}
+
+.news_detail{}
+.news_detail h6{color:#999;margin-top:-10px;margin-bottom:20px;text-align:center;font-size:14px}

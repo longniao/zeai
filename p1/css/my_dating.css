@@ -1,0 +1,50 @@
+.tablelist{width:100%;border-collapse:collapse;margin:0 auto;text-align:left}
+.tablelist .pic{padding:20px 0}
+.tablelist tr:hover{background-color:#f9f9f9}
+.tablelist td{padding:20px 0;word-break:break-all;word-wrap:break-word;font-size:14px;border-bottom:#f5f5f5 1px solid}
+
+.my_dating_add{padding:20px 10px 0 30px}
+.my_dating_add button{margin:108px 30px 0 0}
+.my_dating_add h1{font-size:20px;font-weight:bold;display:block;text-align:left;margin-bottom:10px}
+.my_dating_add .tablelist td{padding:8px 0;}
+.my_dating_add .tablelist tr:hover{background-color:#fff}
+.my_dating_add .tablelist tr:last-child td{border:0}
+.my_dating_add .C{width:100%;text-align:center;box-sizing:border-box}
+.my_dating_add .C dl{width:100%;margin:10px auto;clear:both;overflow:auto;text-align:left}
+.my_dating_add .C dl dt{width:70px;float:left;line-height:40px;font-size:15px}
+.my_dating_add .C dl dd{width:-webkit-calc(100% - 80px);float:left}
+.my_dating_add .C .textarea{padding:10px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.my_dating_add .C .tips{display:block;font-size:12px;color:#8d8d8d;padding:5px 0 2px 0}
+.my_dating_add .C .SW,.my_dating_add .C .RCW li{padding-left:8px;font-size:14px;vertical-align:middle;height:40px;line-height:36px;border:#E7E7EB 1px solid;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;border-radius:3px;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333}
+.my_dating_add .C .RCW{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;-webkit-justify-content:flex-start;justify-content:flex-start}
+.my_dating_add .C .RCW li{width:25%;overflow:hidden;margin:0 8px 5px 0}
+.my_dating_add .C .SW{width:128px;cursor:pointer;margin-right:4px;color:#333;background-color:#fff}
+.my_dating_add .C .SW2{width:91px}
+.my_dating_add .C .RCW li:hover{background-color:#f8f8f8}
+.my_dating_add .C .RCW li input{width:16px;height:16px;border:none; background:none;vertical-align:middle; margin-right:5px}
+.my_dating_add .C .W50{width:53px}
+.my_dating_add .C .area{width:128px}
+.my_dating_add .C select:hover{border-color:#d2d2d2}
+
+
+
+.my_dating .djs{width:100%;font-size:12px;box-sizing:border-box;padding:5px 0;margin:8px 0}
+.my_dating .djs .jzbmT{display:inline-block;color:#999}
+.my_dating .djs .timestyle{display:inline-block;font-size:12px;margin:0 5px;color:#fff;border-radius:22px;padding:0 4px;min-width:8px;height:16px;line-height:16px;text-align:center;border:1px solid #f70;color:#f70}
+.my_dating .djs b{color:#999;font-weight:normal}
+.my_dating .djs font{color:#999}
+.my_dating .yueico{width:60px;height:60px;line-height:60px;border-radius:30px;background-color:#FEA2C8;color:#fff;font-size:24px;text-align:center}
+.my_dating .yueico img{width:60px;height:60px;border-radius:30px}
+/*detali bm user list*/
+.my_dating_bm{text-align:left;padding:10px}
+.my_dating_bm .listboxu li{height:80px;border-bottom:#f5f5f5 1px solid;overflow:hidden;-webkit-user-select:none;position:relative;padding:0 15px 0 70px}
+.my_dating_bm .listboxu li img.photo_s{width:44px;height:44px;border-radius:30px;position:absolute;left:15px;top:18px}
+.my_dating_bm .listboxu li h4{width:92%;font-size:16px;display:inline-block;color:#000;padding-top:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.my_dating_bm .listboxu li h6{display:block;color:#666}
+.my_dating_bm .listboxu li .size2{position:absolute;right:20px;top:25px}
+.my_dating_bm .listboxu li .best{position:absolute;right:20px;top:25px;background-color:#45C01A;display:inline-block;width:110px;text-align:center;line-height:32px;color:#fff;border-radius:33px}
+.my_dating_bm .listboxu li .contact{width:280px;position:absolute;right:160px;top:15px;font-size:12px}
+
+.my_dating_bm .bmtbody{font-size:12px;color:#666;width:100%;margin:15px auto 0 auto;padding:0 15px 15px 15px;border-bottom:#eee 1px solid;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.my_dating_bm .bmtbody h3{color:#000;font-weight:bold;margin-bottom:5px}
+.my_dating_bm .bmtbody b.hot{margin:0 5px;padding:0 6px;font-weight:normal;font-size:12px;display:inline-block;line-height:18px;height:18px;border-radius:20px;background-color:#FF5722;color:#fff;text-align:center}

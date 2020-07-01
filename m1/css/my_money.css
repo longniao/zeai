@@ -1,0 +1,24 @@
+.tabmenuMoney{background:-webkit-linear-gradient(left,#da3a2d, #EE5A4E 30%, #EE5A4E, #EE5A4E 30%,#EE5A4E,#da3a2d);/*chrome*/}
+.top_miniMoney{background:-webkit-linear-gradient(left,#da3a2d, #EE5A4E 30%, #EE5A4E, #EE5A4E 30%,#EE5A4E,#da3a2d);/*chrome*/}
+.submain2{background-color:#fff;-webkit-overflow-scrolling:touch}
+/*my_money*/
+.my_money .ye{padding:1px}
+.my_money .ye .box{width:80%;margin:50px auto 30px auto;clear:both;overflow:auto}
+.my_money .ye .box .dt{width:40%;float:left;border-right:#eee 1px solid}
+.my_money .ye .box .dt i{color:#EE5A4E;font-size:70px;margin:0 0 -5px 0}
+.my_money .ye .box .dd{width:50%;float:right;text-align:left}
+.my_money .ye .money{color:#EE5A4E;font:normal 36px/36px Arial;display:block}
+.my_money .ye .money font{color:#8d8d8d;font-size:20px;padding-left:3px}
+.my_money .ye .money:before{content:'当前人民币';font-size:15px;display:block;color:#999;font-family:'Microsoft YaHei','SimSun','宋体'}
+.my_money .ye .moneydetail{margin:0 auto;color:#8d8d8d;line-height:200%;text-align:left;display:inline-block}
+.my_money .ye .btnA{border-radius:20px;height:40px;line-height:40px;color:#fff;width:100%;font-size:16px;cursor:pointer;border:0;margin:0 auto;display:block;text-align:center;background-color:#EE5A4E;margin-bottom:30px}
+.my_money .mx{padding:10px 0}
+.my_money .mx dl{width:100%;padding:5px 15px;box-sizing:border-box;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;clear:both;overflow:auto;border-bottom:#f8f8f8 1px solid}
+.my_money .mx dl:last-child{border-bottom:0}
+.my_money .mx dl dt,.my_money .mx dl dd{float:left;display:block}
+.my_money .mx dl:hover{background-color:#f8f8f8}
+.my_money .mx dl dt{width:70%;font-size:14px;text-align:left;line-height:150%}
+.my_money .mx dl dt font{color:#999;font-size:12px;display:block}
+.my_money .mx dl dd{width:28%;text-align:right;font-size:16px;line-height:39px}
+.my_money .mx dl dd.zs{color:#EE5A4E}
+.my_money .mx dl dd.fs{color:#097AFE}

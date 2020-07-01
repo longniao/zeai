@@ -1,0 +1,56 @@
+.news h1{font-size:18px;font-weight:bold;text-align:center;width:109px;line-height:40px;margin:0 auto 15px auto;position:relative}
+.news h1:after{content:'';display:block;height:3px;width:22%;margin:0 auto;height:3px;background-color:#FD66B5;display:block}
+.news .box{border-radius:8px;background-color:#fff;padding:20px 30px;min-height:236px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;margin-bottom:25px}
+.news .box:hover{box-shadow:0 0 24px rgba(0,0,0,0.08)}
+
+.main{width:1200px;margin:30px auto;clear:both;overflow:auto}
+.main .newsL{width:820px;float:left}
+.main .newsR{width:355px;float:right}
+
+.newskind{width:98%;text-align:left;margin:10px auto}
+.newskind a{background-color:#f8f8f8;line-height:32px;display:inline-block;margin:10px 20px 5px 0;color:#666;border-radius:30px;padding:0 15px;border:#dedede 1px solid;box-sizing:border-box}
+.newskind a.ed{background-color:#FD45A7;color:#fff;border:#FD45A7 1px solid}
+
+.newslist {margin-bottom:60px;min-height:1177px}
+.newslist li{padding:25px 10px;clear:both;overflow:auto;border-bottom:#f0f0f0 1px solid}
+.newslist li:last-child{border:1}
+.newslist li p{width:247px;height:176px;float:left;display:block;background-size:cover;background-position:center center;background-repeat:no-repeat;border-radius:3px}
+.newslist li em{width:460px;height:176px;float:right;position:relative}
+.newslist li em h4{text-align:left;font-size:18px}
+.newslist li em h5{text-align:left;margin-top:10px;color:#999;line-height:200%}
+.newslist li a.kind{font-size:12px;position:absolute;bottom:0;left:0;color:#FD66B5}
+.newslist li a.kind span{font-size:12px;color:#999}
+.newslist li span.click{font-size:12px;position:absolute;bottom:-2px;right:0;color:#999}
+.newslist li span.click b{font-size:12px;font-weight:normal}
+.newslist li font{font-size:12px;position:absolute;bottom:0;right:70px;color:#999}
+.main .zeaipagebox{margin-bottom:30px}
+/*ulist*/
+.newsR .box{margin-bottom:30px;padding:20px 0;}
+.newsR .ulist{width:330px;margin-top:30px;clear:both;margin-left:25px}
+.newsR .ulist li{width:140px;height:260px;margin:0 25px 0 0;float:left;overflow:hidden}
+.newsR .ulist li:nth-child(2n){margin-right:0;margin-left:0}
+.newsR .ulist li a.mbox{width:140px;height:175px;overflow:hidden;position:relative;display:block;border-radius:3px;overflow:hidden}
+.newsR .ulist li a.mbox p.m{width:140px;height:175px;display:block;overflow:hidden;border-radius:3px;background-size:cover;background-position:center center;background-repeat:no-repeat}
+.newsR .ulist li a.mbox em{position:absolute;left:0;top:0;width:100%;height:100%;background-color:#000;display:none;cursor:pointer;color:#fff;text-align:center}
+.newsR .ulist li a.mbox em span{display:block;margin:10px auto;font-size:14px}
+.newsR .ulist li a.mbox em span:first-child{margin-top:20px}
+.newsR .ulist li a.mbox b{position:absolute;color:#fff;bottom:-30px;left:-webkit-calc(50% - 40px);width:80px;line-height:30px;text-align:center;background-color:#FD66B5;font-weight:normal;border-radius:15px;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
+.newsR .ulist li h4{font-size:14px}
+.newsR .ulist li:hover h4,.newsR .ulist li:hover h5{color:#FD66B5}
+.newsR .ulist li a.mbox:hover em{background-color:rgba(0,0,0,0.5);display:block}
+.newsR .ulist li a.mbox:hover p.m{filter:blur(8px);-webkit-transform:scale(1.1);-webkit-transition:all .5s;-moz-transition:all .5s;transition:all .5s}
+.newsR .ulist li a.mbox:hover b{bottom:20px}
+.newsR .ulist li h4{color:#666;margin-top:10px;text-align:left}
+.newsR .ulist li h5{color:#999;margin-top:5px;font-size:12px;text-align:left}
+
+.news_detail {min-height:1113px;position:relative}
+.news_detail .T{padding:10px 0 20px 0;border-bottom:#f2f2f2 1px solid}
+.news_detail .T h2{font-weight:bold;font-size:24px}
+.news_detail .T h6{color:#999;margin-top:20px}
+.news_detail .T h6 a{color:#FD66B5}
+.news_detail .C{font-size:16px;line-height:200%;margin-bottom:100px;margin-top:20px;min-height:300px;text-align:left}
+.news_detail .C img{max-width:100%;margin:15px auto;display:block}
+.news_detail .C video{display:block;margin:20px auto}
+.news_detail .C .copy {position:absolute;bottom:20px;left:0;width:100%}
+.bdsharebuttonbox:before{content:'分享至';display:inline-block;margin-right:10px;font-size:16px;color:#888;float:left;margin-top:5px}
+.bdsharebuttonbox{width:290px;display:block;margin:50px auto 0 auto}

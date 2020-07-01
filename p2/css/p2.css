@@ -1,0 +1,66 @@
+.navbox2{width:100%;line-height:100px;height:100px;background-color:#F3F3F3}
+.nav2{width:1200px;margin:0 auto;position:relative}
+.nav2 a.logo{width:50px;height:50px;display:block;float:left;margin-top:25px;background-color:#F7564D;border-radius:5px}
+.nav2 a.logo img{height:44px;display:block;margin:3px 0 0 3px}
+.nav2 h1{line-height:50px;margin:25px 0 0 15px;color:#F7564D;float:left;font-weight:bold}
+.nav2 h1:after{content:'';height:22px;width:1px;background-color:#ccc;margin:16px 20px 0 20px;display:block;float:right}
+.nav2 ul a{display:block;color:#333;padding:0 20px;float:left;font-size:16px;line-height:24px;position:relative;padding-top:38px}
+.nav2 ul a:after{content:'';display:block;width:80%;margin:0 auto;height:4px;background-color:#F7564D;display:none;border-radius:2px;margin-top:2px}
+.nav2 ul a.ed:after{display:block}
+.nav2 ul a.ed,.nav2 ul a:hover{color:#F7564D}
+
+.nav2 .logined {width:170px;line-height:66px;height:66px;position:absolute;text-align:center;right:100px;top:15px}
+.nav2 .logined img.m{width:34px;height:34px;border-radius:20px;border:#fff 2px solid;vertical-align:middle}
+.nav2 .logined span{max-width:100px;padding:0 0 0 8px;color:#999;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-sizing:border-box;display:inline-block;vertical-align:middle}
+.nav2 .logined i.xj{color:#fff;color:#999;margin-left:10px;display:inline-block;font-size:12px;width:12px;transition:transform .5s;-webkit-transition:-webkit-transform .5s;vertical-align:middle}
+.nav2 .logined .embox{width:390px;position:absolute;height:0;overflow:hidden;top:66px;left:-100px}
+.nav2 .logined .embox dl{width:380px;height:240px;background-color:#fff;position:absolute;top:0;border:#ccc 1px solid;left:0;box-shadow:0 0 15px rgba(0,0,0,0.3);line-height:normal;z-index:2;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.nav2 .logined .embox dl{padding:20px 0 0 10px}
+.nav2 .logined .embox dl a{border-radius:3px}
+.nav2 .logined .embox dl i{width:16px;text-align:left;margin-right:4px;color:#999}
+.nav2 .logined .embox dl dt{width:145px;float:left}
+.nav2 .logined .embox dl dt .vip{color:#fff;background-color:#A18264;border-color:#A18264}
+.nav2 .logined .embox dl dt .vip i{color:#fff}
+.nav2 .logined .embox dl dt a{line-height:32px;display:inline-block;font-size:14px;color:#666;border:#ddd 1px solid;width:90px;margin:10px 0}
+.nav2 .logined .embox dl dt a:last-child{margin-top:45px;background-color:#f9f9f9}
+.nav2 .logined .embox dl dt a:nth-child(2){color:#fff;background-color:#FD66B5;border-color:#FD66B5}
+.nav2 .logined .embox dl dt a:nth-child(2) i{color:#fff}
+.nav2 .logined .embox dl dt a:hover{background-color:#F7564D;border-color:#F7564D;color:#fff}
+.nav2 .logined .embox dl dd{width:200px;float:left}
+.nav2 .logined .embox dl dd a{line-height:34px;display:inline-block;font-size:14px;color:#666;width:100px;float:left;margin:7px 0}
+.nav2 .logined .embox dl dd i.rectico{width:14px;font-size:16px;padding-right:3px;margin-left:-2px}
+.nav2 .logined .embox dl dd i.passico{width:14px;font-size:17px;padding-right:3px;margin-left:-2px}
+.nav2 .logined .embox dl dd a:hover,.nav2 .logined .embox dl dd a:hover i{background-color:#F7564D;color:#fff}
+.nav2 .logined .j{position:absolute;left:80px;top:69px;width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:8px solid #fff;z-index:3;filter:alpha(opacity=0);-moz-opacity:0;opacity:0}
+.nav2 .logined:hover{background-color:#F7564D;cursor:pointer}
+.nav2 .logined:hover i.xj{transform:rotate(180deg);-webkit-transform:rotate(180deg);color:#fff}
+.nav2 .logined:hover span{color:#fff}
+.nav2 .logined:hover .embox{height:250px}
+.nav2 .logined:hover .j{display:block;top:59px;filter:alpha(opacity=1);-moz-opacity:1;opacity:1}
+.nav2 .msgvip{width:100px;height:66px;position:absolute;right:0;text-align:right}
+.nav2 .msgvip a{width:40px;height:66px;float:left;display:block;position:relative}
+.nav2 .msgvip a i{width:40px;height:18px;line-height:18px;;margin-top:24px;font-size:20px;color:#999}
+.nav2 .msgvip a:hover i{color:#F7564D;}
+.nav2 .msgvip a b{position:absolute;text-align:center;left:27px;top:26px;font-size:12px;padding:0 5px;min-width:10px;height:20px;line-height:20px;border-radius:10px;background-color:#F7564D;color:#fff;font-weight:normal}
+.nav2 .loginreg{width:140px;line-height:36px;height:36px;border-radius:18px;background-color:#F7564D;color:#fff;margin-top:32px;color:#fff;position:absolute;right:0}
+.nav2 .loginreg a{color:#fff;font-size:14px;display:inline-block;margin:0 10px}
+.nav2 .loginreg a:hover{color:#FFF6F6}
+
+body{background-color:#fff}
+.bottom{margin-top:0;border-top:0}
+.bottom ul li:nth-child(6) a{background-color:#F7564D}
+.bottom ul li:nth-child(6) h1{color:#F7564D;}
+.bottom ul li:nth-child(6) a:hover{background-color:#FF5F6F}
+
+/*Zeai_sidebar*/
+.Zeai_sidebar li:last-child{background-color:#F7564D}
+.Zeai_sidebar li:last-child span.top{background-color:#F7564D}
+.Zeai_sidebar li:hover,.Zeai_sidebar li.ed{background-color:#F7564D}
+.Zeai_sidebar li em{border:#F7564D 1px solid}
+/*****radio skin checkskin*****/
+.radioskin:checked + label.radioskin-label i{border-color:#F7564D}
+.radioskin:checked + label.radioskin-label i:before{background-color:#F7564D}
+.radioskin-label:hover i{border-color:#F7564D}
+.checkskin-label:hover i{border-color:#F7564D}
+.checkskin:checked + label.checkskin-label i {background-color:#F7564D;border-color:#F7564D}
+.switch:checked + label.switch-label{background-color:#F7564D;border-color:#F7564D}

@@ -1,0 +1,23 @@
+.my_gift{padding:15px 0;top:44px;bottom:44px}
+.my_gift ul{background:#fff;padding:0 0;clear:both;overflow:auto}
+.my_gift ul li{width:20%;padding:15px 0;float:left;text-align:center}
+.my_gift ul li:hover{color:#f70;background-color:#f8f8f8}
+.my_gift ul li:hover h2{color:#f70}
+.my_gift ul li p{width:70px;height:70px;line-height:70px;margin:0 auto;text-align:center}
+.my_gift ul li img{max-width:70px;max-height:70px;margin-top:-3px;vertical-align:middle}
+.my_gift ul li h2{color:#666;font-size:14px;margin-top:5px;color:#8d8d8d;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.my_gift ul .label{width:75%;margin:0 auto;display:block;margin-top:10px;font-size:12px;color:#999;border:#ccc 1px dashed;padding:2px;border-radius:2px}
+.my_gift ul li:hover .label{background-color:#fff}
+.my_gift ul .btn2LV{margin-left:10px}
+.my_gift ul li h5{font-size:12px;color:#fd9f23;font-weight:normal;text-align:center}
+.my_gift ul li h5 i{display:inline-block;}
+.my_gift ul li h5 i.ico{display:inline-block;width:15px;height:15px;line-height:15px}
+.my_gift ul li h4{margin:5px 0 10px ;}
+.my_gift ul li h4 a{font-size:12px;color:#999}
+#my_gift_del{display:inline-block;width:40px;position:absolute;top:6px;right:15px;font-size:18px;color:#037afe;z-index:8}
+.btnbox .checkskin-label b{font-weight:normal}
+/**/
+.btnbox{width:170px;position:relative}
+.btnbox li:nth-child(1){position:absolute;bottom:-18px;left:15px;}
+.btnbox li:nth-child(2){position:absolute;bottom:-25px;right:0;}
+.btnbox li.on{background-color:#FD9F23}

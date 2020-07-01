@@ -1,0 +1,16 @@
+.mapbtnbox a .ico,.mapbtnbox a span{vertical-align:middle;display:inline-block;color:#666}
+.mapbtnbox a .ico{font-size:22px;margin-right:4px;color:#bbb}
+.mapbtnbox a span{margin-top:-2px}
+.mapbtnbox a{display:inline-block;line-height:34px;height:36px;border:#ddd 1px solid;color:#09f;border-radius:33px;padding:0 20px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;cursor:pointer}
+.mapbtnbox a:hover{background-color:#30CEF5;color:#fff;border-color:#30CEF5}
+.mapbtnbox a:hover span,.mapbtnbox a:hover .ico{color:#fff}
+#aboutus{width:90%;height:150px;margin-bottom:10px;padding:10px;font-size:14px}
+#weixin_pic dt,#weixin_pic dd{height:80px}
+#weixin_pic dd{position:relative}
+#weixin_pic .icoadd,#weixin_pic img{width:60px;height:60px;display:block}
+#weixin_pic .icoadd{line-height:60px;border:#dedede 1px solid;font-size:30px;text-align:center;color:#aaa;display:inline-block}
+#weixin_pic:after{content:''}
+#weixin_pic .wxpic{position:absolute;left:0px;top:0}
+#weixin_pic .tips{position:absolute;left:300px;top:0}
+.myRC .SW_area{width:130px}
+.myRC .SW_hj{width:130px}

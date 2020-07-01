@@ -1,0 +1,6 @@
+#M_tips_keep {position:fixed; top:0px;filter:alpha(opacity=75);-moz-opacity:0.75;opacity:0.75; background-color:#000;z-index:98;left:0px;display:none}
+#C_tips_keep {position:fixed;z-index:99;overflow:hidden;display:none;background-color:#000;border-radius:5px;color:#eee;filter:alpha(opacity=75);-moz-opacity:0.75;opacity:0.75;font-size:14px;text-align:center}
+#C_tips_keep .tipsbox{width:90%;margin:0 auto}
+#C_tips_keep .tipsbox .tpsL{float:left;width:35px;margin-right:5px;height:80px;text-align:left}
+#C_tips_keep .tipsbox .tpsL img{width:35px;height:35px;display:block;margin-top:23px}
+#C_tips_keep .tipsbox .tpsR{float:left;width:80%;width:-webkit-calc(100% - 40px);line-height:80px;font-size:14px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}

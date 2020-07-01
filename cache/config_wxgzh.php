@@ -1,0 +1,33 @@
+<?php /*www.zeai.cn ZEAI6.0高速缓存系统*/
+$_GZH['wx_gzh_name']='恩施有缘网';
+$_GZH['wx_gzh_token']='nuPSquQo87nsesssfrrPEImEbu7Pp7ou';
+$_GZH['wx_gzh_welcome']='★★★ 请不要取消关注哦 ★★★<br>取消将无法接收好友动态和任何消息提醒，其它部分功能也无法正常使用';
+$_GZH['wx_gzh_hfcontent']='联系我们<br>记住我们的域名www.esyyw.com<br>微信：xuliag8984';
+$_GZH['wx_gzh_mb_loveb']='';
+$_GZH['wx_gzh_mb_msgchat']='';
+$_GZH['wx_gzh_mb_udata']='AnFa_brR8POqAbRR9UFNA2jHUqBuoiVBT6SbVHBtiXc';
+$_GZH['wx_gzh_mb_adminfo']='HItwqxZBYG3JklJDUmwsTfm71QiuLxDxY_Er41gu3wo';
+$_GZH['wx_gzh_mb_honor']='';
+$_GZH['wx_gzh_mb_productpay']='';
+$_GZH['wx_gzh_push_kind']='pic';
+$_GZH['wx_gzh_push_pic_path']='p/weixin/2019/02/1549383225ef0.jpg';
+$_GZH['wx_gzh_push_pic_title']='公众号推送测试标题';
+$_GZH['wx_gzh_push_pic_C']='公众号推送测试内容';
+$_GZH['wx_gzh_push_pic_url']='http://v6.zeai.cn';
+$_GZH['wx_gzh_push_text_C']='&lt;a href=&quot;http://v6.zeai.cn/?z=my&amp;e=my_info&quot;&gt;完善资料&lt;/a&gt;';
+$_GZH['wx_gzh_push_ulist']='1212';
+$_GZH['wx_gzh_qf_kind']='text';
+$_GZH['wx_gzh_qf_pic_path']='p/weixin/2019/02/1549383345ha7.jpg';
+$_GZH['wx_gzh_qf_pic_title']='公众号图文群发测试标题';
+$_GZH['wx_gzh_qf_pic_C']='公众号图文群发测试内容，深夜有所打拢，不好意思';
+$_GZH['wx_gzh_qf_pic_url']='http://v6.zeai.cn';
+$_GZH['wx_gzh_qf_text_C']='文本群发测试<br><br>深夜有所打拢，不好意思';
+$_GZH['wx_gzh_qf_ulist']='12';
+$_GZH['wx_gzh_ewm']='p/img/subscribe.jpg';
+$_GZH['wx_gzh_getphoto_s']=1;
+$_GZH['wx_gzh_mb_msgchat2']='TrF4v1tT4c-Kkb3AQTZLDHDtgPvmOfZhc1-TxJGJ5JI';
+$_GZH['wx_gzh_mb_honor2']='2QoDOCQbboz2JFy1T6G7AwbAjCVlqb2CqV-qF-dYNTQ';
+$_GZH['wx_gzh_mb_loveb2']='UtoxssGjcGG3DDWhWktnZkc-pjWQswCjCXrP42pitI0';
+$_GZH['wx_gzh_mb_productpay2']='';
+$_GZH['wx_gzh_mb_productpay3']='5XWQ6TFYQbdfteSuLG8iPkTXSnHaYdEddNJweW7I5Ys';
+?>

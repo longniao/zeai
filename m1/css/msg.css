@@ -1,0 +1,59 @@
+.tabmenu_msg{top:0px;height:50px;background:#fff;border-bottom:#f2f2f2 1px solid}
+.tabmenu_msg em{width:86%;height:50px;padding:0 7%;position:absolute;z-index:2}
+.tabmenu_msg em li{height:50px}
+.tabmenu_msg em li span{position:relative;font-size:17px;color:#000;padding:0 13px 0 14px;height:49px;line-height:49px;font-weight:bold}
+.tabmenu_msg em li.ed span{color:#fff}
+.tabmenu_msg em li span b{position:absolute;right:-10px;top:-12px;display:block;position:absolute;min-width:14px;padding:0 3px;height:20px;line-height:20px;font-size:12px;border-radius:12px 12px 12px 0;background-color:#fff;color:#FD45A7;border:#FD45A7 1px solid;font-weight:normal}
+.tabmenu_msg i{bottom:9px;background:#FD45A7;height:30px;border-radius:3px;z-index:1}
+/*sx*/
+.msg{top:50px;background-color:#fff;padding:10px 0;box-sizing:border-box;border-top:#f2f2f2 0px solid}
+.msg dl{border-bottom:#f5f5f5 1px solid;position:relative;height:70px;box-sizing:border-box;-webkit-transition:transform .3s;transition:transform .3s}
+.msg dl dt,.msg dl dd{position:absolute;top:0;height:50px;padding:10px 0}
+.msg dl dt{width:50px;left:15px}
+.msg dl dt img{width:50px;height:50px;border-radius:50px;object-fit:cover;-webkit-object-fit:cover}
+.msg dl dd{left:80px;width:100%;text-align:left}
+.msg dl dd h6{color:#999;margin-top:3px;width:60%;display:inline-block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.msg dl dd h6 img{width:20px}
+.msg dl span{color:#999;font-size:12px;position:absolute;right:15px;top:15px}
+.msg dl i.new{display:block;position:absolute;min-width:14px;padding:0 3px;height:20px;line-height:20px;font-size:12px;border-radius:12px;background-color:#FD45A7;right:15px;bottom:10px;color:#fff;border:#fff 2px solid;text-align:center}
+.msg dl .lock{border-radius:25px;overflow:hidden;position:relative}
+.msg dl .lock img{filter:blur(3px);-webkit-filter:blur(3px)}
+.msg dl i.lockico{display:none}
+.msg dl .lock i.lockico{display:block;position:absolute;top:10px;left:10px;line-height:50px;font-size:30px;color:#fff}
+.msg dl strong{width:70px;height:71px;line-height:71px;font-size:16px;background-color:#f00;color:#fff;position:absolute;top:-1px;right:-70px}
+.msg_yd img{width:88%;margin-top:100px}
+/*tz*/
+.msg dl dt b{width:8px;height:8px;border-radius:5px;display:block;background-color:#FF3B30;position:absolute;right:-2px;top:8px}
+.msg dl dt i.k1,.msg dl dt i.k4{width:50px;height:50px;line-height:50px;border-radius:25px;font-size:28px;color:#fff}
+.msg dl dt i.k1{background-color:#55b8e1;}
+.msg dl dt i.k4{background-color:#ff6767;font-size:36px}
+.msg dl dt img{width:50px;height:50px;border-radius:25px}
+.msg dl i.k2,.msg dl i.k3{width:25px;height:25px;line-height:25px;border-radius:15px;bottom:10px;right:15px;position:absolute;color:#fff}
+.msg dl i.k2{background-color:#fcc56e}
+.msg dl i.k3{background-color:#ffa3a4}
+
+/*gg*/
+.msg .msg_news li{width:94%;margin:10px auto;padding:15px 3%;display:block;margin:0 auto;text-align:left;border-bottom:#f5f5f5 1px solid;clear:both;overflow:auto}
+.msg .msg_news li:hover{background-color:#f8f8f8}
+.msg .msg_news li span{float:right;color:#999;font-size:14px;margin-top:2px}
+.msg .msg_news li a{font-size:16px}
+
+
+
+/*msg box_hi*/
+#box_hi {display:none}
+.box_hi {width:100%;margin:0 auto;clear:both;overflow:auto}
+.box_hi dl{width:90%;min-height:90px;margin:20px auto;clear:both;overflow:hidden}
+.box_hi dl dt,.box_hi dl dd{float:left}
+.box_hi dl dt{width:60px;height:60px;border-radius:30px;position:relative}
+.box_hi dl dt img{width:60px;height:60px;border-radius:30px}
+.box_hi dl dd{background-color:#FE7CA6;color:#fff;margin-left:15px;font-size:14px;line-height:20px;padding:10px;text-align:left;position:relative;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;
+max-width:calc(100% - 101px);max-width:-webkit-calc(100% - 101px);min-width:20px;min-height:20px;margin-top:10px}
+.box_hi dl dd:before{content:"";position:absolute;right:100%;top:13px;width:0;height:0;border-top:7px solid transparent;border-right:8px solid #FE7CA6;border-bottom:7px solid transparent}
+.box_hi dl dt .imgbdr1{background-color:#E6F4FE}
+.box_hi dl dt .imgbdr2{background-color:#FCEFF4}
+.box_hi a{width:90%;line-height:44px;display:block;margin:30px auto 20px auto;font-size:18px;background-color:#E83191;color:#fff;border-radius:3px;position:absolute;bottom:0;left:5%}
+.box_hi a:hover{background-color:#EE588C}
+.box_hi dl dt span{width:60px;height:20px;line-height:20px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px;color:#666;position:absolute;bottom:-25px;left:0}
+
+

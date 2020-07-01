@@ -1,0 +1,41 @@
+.my_vip{top:0;bottom:0}
+.my_vip{padding:0;background-color:#F3F0EC}
+.gobackVip{left:14px;top:15px;width:44px;border-radius:30px;background-color:rgba(0,0,0,.3)}
+.vipheader img{width:100%;display:block}
+.checkskin-label:hover i{border-color:#E83191}
+.checkskin:checked + label.checkskin-label i {background-color:#E83191;border-color:#E83191}
+.viplist {width:94%;margin:20px auto 20px auto;border-radius:12px;background-color:#fff;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;min-height:100px;font-size:16px}
+.viplist .table{width:88%;border-collapse:collapse;box-sizing:border-box;background-color:#fff;border-radius:12px;margin:0 auto}
+.viplist .table td{padding:15px 0;border-bottom: #eee 1px solid;font-size:16px}
+.viplist .table:last-child tr td{border-bottom:0}
+.viplist .table em{font-size:12px;display:block}
+.viplist .table tr td.on{color:#E83191}
+.viplist .table tr td.off {color:#999}
+.viplist .table tr td.vippricebox{font-size:18px;font-weight:bold}
+.viplist button{width:88%;display:block;margin:20px auto}
+.viplist .checkskin-label i.i3{border-radius:30px}
+.viplist .payinfo{text-align:left;background-color:#fff;padding:20px 30px;border-bottom:15px #f0f0f0 solid;line-height:200%;color:#666}
+.viplist .table img.gico{width:40px;}
+.linebox .BAI{color:#333;font-size:18px;font-weight:bold}
+.viplist .btn{margin:15px auto 0 auto}
+.viplist .CC{padding:10px 20px 15px 20px;line-height:200%;color:#666}
+.viplist .CC b{color:#FD66B5;font-weight:normal}
+.viplist .auth ul li{font-size:12px;width:46%;line-height:40px;border-radius:30px;border:#eee 1px solid;margin:8px 2%;display:block;float:left;text-align:center;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.linebox .line:before{-webkit-transform:scaleY(1);transform:scaleY(1);background-color:#A28362}
+.linebox .title{color:#A28362}
+.linebox .title2{background-color:#F3F0EC}
+.linebox +h5{width:100%;padding:0;font-size:14px}
+
+.viplist .auth dl{width:50%;float:left;text-align:center;margin:10px 0 0 0}
+.viplist .auth dl dt{width:60px;height:60px;line-height:60px;border-radius:12px;background-color:#E7D3B8;color:#fff;text-align:center;display:inline-block;margin-bottom:10px;border:#ddc9ae 1px solid}
+.viplist .auth dl dd{width:100%;line-height:24px;display:inline-block;font-size:14px;color:#666}
+.viplist .auth dl dt i.ico{font-size:40px;}
+.viplist .auth dl dd h6{display:block;font-size:14px;color:#666;}
+.viplist .auth dl dd h6 b{color:#FD66B5;margin:0 3px;font-weight:normal}
+
+.viplist h1{color:#333;font-size:18px;font-weight:bold;color:#A28362;text-align:center;position:relative;padding-top:20px}
+.viplist h1 img{height:11px;margin:0 10px}
+.viplist .vipkefu{padding:15px 20px 30px 20px}
+.viplist .vipkefu h5{text-align:center;color:#999}
+.viplist .vipkefu img{width:45%;margin:20px auto 10px auto;display:block;border:#eee 1px solid;padding:10px}
+.viplist .vipkefu font{text-align:center;margin-top:10px;font-size:12px;color:#999}

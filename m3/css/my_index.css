@@ -1,0 +1,36 @@
+body{background-color:#f9f9f9}
+.my-topbox .C{border-top-color:#fe8181;height:230px}
+.my-topbox .C:after{background:url('../../m3/img/my_banner.gif') center;background-size:50%}
+.my-menu ul{width:96%;margin:12px auto;border:0;border-radius:6px}
+.my-menu ul li i{color:#FF6F6F}
+.my-menu ul li:after {color:#d2d2d2}
+.linebox .title{background-color:#f9f9f9}
+.my_Iviewuser{background-color:#f9f9f9;padding:10px 0}
+.my_Iviewuser .ivubox span {border:2px solid #fff;margin-left:-12px}
+.my-topbox .RZBOX .ico{filter:alpha(opacity=40);-moz-opacity:0.4;opacity:0.4}
+.my-topbox .RZBOX i.ed_color_identity{background-color:#ea5e5e}
+
+/*topnav*/
+.topnav {width:100%;border-radius:6px;margin-bottom:12px;height:100px;padding:10px 0;background-color:#fff;-webkit-user-select:none}
+.topnav dl{width:25%;height:45px;border-right:#f2f2f2 1px solid;float:left;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.topnav dl:last-child{border:0}
+.topnav dl:hover dd{color:#e83191}
+.topnav dl dt{width:50px;height:50px;line-height:50px;margin:0px auto;border-radius:35px;color:#FF6F6F}
+.topnav dl dd{width:90%;line-height:20px;font-size:14px;margin:0 auto}
+.topnav dl dd b{font-weight:normal;color:#999;display:block;font-size:12px}
+.topnav dl:nth-child(1) dt{font-size:32px;line-height:47px}
+.topnav dl:nth-child(2) dt{font-size:32px}
+.topnav dl:nth-child(3) dt{font-size:26px;line-height:47px}
+.topnav dl:nth-child(4) dt{font-size:28px}
+.my-menu .vip{color:#f00}
+.my-menu .xqk{color:#FD45A7}
+.my-menu .gift{color:#fd9f23}
+.my-menu .data{color:#FE6375}
+.my-menu .rz{color:#66D194}
+.my-menu .video{color:#C96DB5}
+.my-menu .photo{color:#B28850}
+.my-menu .trend{color:#FF2CB3}
+.my-menu .dating{color:#FD45A7}
+.my-menu .kefu{color:#88B0FB}
+.my-menu .about{color:#5BB8D8}
+.my-menu .set{color:#C29F91}

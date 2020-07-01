@@ -1,0 +1,26 @@
+@import url(main.css?4);
+body{background:#fff}
+.pbox{margin:0 auto;text-align:center;padding:10px 0 0}
+.canvas{width:100%;overflow:hidden;cursor:pointer;border:#ddd 1px solid;position:relative;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+#show_img{border-width:0px;position:relative;filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=0)}
+#source_div{position:absolute;top:0px;left:0px}
+.cut_box{margin:0 auto;position:relative;z-index:7;top:0px;left:0px;opacity:0.70;filter:alpha(opacity=70);cursor:move}
+.cut_box ul{width:100%;background-color:#efefef}
+.cut_box ul:nth-child(2){background:none}
+.cut_box ul:nth-child(2) li{height:100%;float:left}
+.cut_box ul:nth-child(2) li:nth-child(1),.cut_box ul:nth-child(2) li:nth-child(3){background-color:#efefef}
+.cut_box ul:nth-child(2) li:nth-child(2){border:2px solid #c00;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+iframe{border:0px}
+.pbox h2{font-weight:normal;font-size:12px;margin:15px auto 0 auto;color:#666;background-color:#fff;z-index:999}
+.cutbtn{position:absolute;bottom:15px;z-index:99;left:100px;width:444px}
+.cutbtn h3{display:block;width:200px;text-align:center;margin:0 auto;padding-top:20px;float:left}
+.cutbtn h3 a{display:block;margin:0 10px;width:30px;height:30px;border-radius:15px;float:left;background-color:#E83191;-webkit-transition:all .5s;-moz-transition:all .5s;transition:all .5s}
+.cutbtn h3 a:hover{background-color:#5EB87B}
+.cutbt1,.cutbt2,.cutbt3,.cutbt4{background:url("../images/photo_s_cut_adm.png");background-size:30px 120px;background-repeat:no-repeat}
+.cutbt1,.cutbt2,.cutbt3,.cutbt4{float:left}
+.cutbt1 {background-position:left top}
+.cutbt2 {background-position:left -30px}
+.cutbt3 {background-position:left -60px}
+.cutbt4 {background-position:left -90px}
+.cutbt5 {width:160px;height:40px;line-height:40px;background:#E83191;display:block;margin:15px auto 0 20px;color:#fff;font-size:18px;border-radius:2px;float:left}
+.cutbt5:hover{color:#fff;background:#f60}
