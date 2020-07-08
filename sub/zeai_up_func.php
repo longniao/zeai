@@ -195,22 +195,22 @@ function up_send($file,$dbname,$waterimg=0,$smallsize='',$bigsize='',$middlesize
 	}elseif($filetype == 'video'){
 		$maxMB = $_UP['upVMaxMB'];
 		$title = '视频';
-		$dbname= str_replace('v/','tmp/',$dbname);
+		//$dbname= str_replace('v/','tmp/',$dbname);
 	}elseif($filetype == 'audio'){
 		$maxMB = $_UP['upAmaxMB'];
 		$title = '语音';
-		$dbname= str_replace('v/','tmp/',$dbname);
+		//$dbname= str_replace('v/','tmp/',$dbname);
 	}
 	$max_file_size=1024000*$maxMB;
 	if($max_file_size < $file["size"])json_exit(array('flag'=>0,'msg'=>$title.'太大，不得超过'.$maxMB.'M，请检查'));
-	
+
 	$tmp_name = $file["tmp_name"];
 	$url  = $upurl.'?filename='.$dbname.'&filetype='.$filetype;
 	$url .= "&waterimg=$waterimg&bigsize=$bigsize&smallsize=$smallsize&middlesize=$middlesize";
 	if(file_exists($tmp_name)){
-		$tmp_name = file_get_contents($tmp_name);
-		if(!empty($tmp_name)){
-			$ret = Zeai_POST_stream($url,$tmp_name);
+		$tmp_content = file_get_contents($tmp_name);
+		if(!empty($tmp_content)){
+			$ret = Zeai_POST_stream($url,$tmp_content);
 			//$ret = json_decode($ret,true);
 			return $ret;
 		}else{
