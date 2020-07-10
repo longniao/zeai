@@ -158,7 +158,8 @@ switch ($_POST['submitok']) {
 	break;
 }
 function get_ext($file_name){
-    return array_pop(explode('.', $file_name));
+    $arr = explode('.', $file_name);
+    return array_pop($arr);
 }
 function receive_video($filename){
     $streamData = isset($GLOBALS['HTTP_RAW_POST_DATA'])? $GLOBALS['HTTP_RAW_POST_DATA'] : '';  
