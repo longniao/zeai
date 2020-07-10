@@ -25,7 +25,6 @@ define('SELF',$_SERVER['PHP_SELF']);
 $_ZEAI['ver'] = '6.8.3';
 define('ADDTIME',time());
 header("content-Type: text/html; charset=utf-8");
-$CookDomain=substr(HOST,strpos(HOST,'.'),99);
-$_ZEAI['CookDomain']=str_replace('http://', '', $CookDomain);
+$_ZEAI['CookDomain']=$_SERVER['SERVER_NAME'];
 $navarr = json_decode($_ZEAI['nav'],true);
 ?>
