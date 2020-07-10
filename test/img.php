@@ -6,14 +6,16 @@
  * Time: 16:10
  */
 
-$video_filePath = '/data/wwwroot/zeai/up/p/v/2020/07/119580_1594368143huq.mp4';
+$destination = '/data/wwwroot/zeai/up/p/v/2020/07/119580_1594368143huq.mp4';
 
-$movie = new ffmpeg_movie($video_filePath);
-$ff_frame = $movie->getFrame(1);
-$gd_image = $ff_frame->toGDImage();
-$img="./test.jpg";
-imagejpeg($gd_image, $img);
-imagedestroy($gd_image);
+$extname = get_ext($destination);
+$_img = str_replace('.'.$extname,'.jpg',$destination);
+$cmd = 'ffmpeg -i '. $destination .' -ss 1 -vframes 1 ' . $_img;
+exec($cmd);
+
+function get_ext($file_name){
+    return array_pop(explode('.', $file_name));
+}
 
 // ffmpeg -i 119580_1594368143huq.mp4 -ss 1 -f image2 119580_1594368143huq.jpg
 // ffmpeg -i 119580_1594368143huq.mp4 -ss 1 -vframes 1 119580_1594368143huq.jpg
