@@ -157,6 +157,9 @@ switch ($_POST['submitok']) {
 		echo $ret;
 	break;
 }
+function get_ext($file_name){
+    return array_pop(explode('.', $file_name));
+}
 function receive_video($filename){
     $streamData = isset($GLOBALS['HTTP_RAW_POST_DATA'])? $GLOBALS['HTTP_RAW_POST_DATA'] : '';  
     if(empty($streamData)){  
@@ -166,6 +169,11 @@ function receive_video($filename){
 		mk_fdatedir($filename);
 		$destination = ZEAI2.$filename;//DIRECTORY_SEPARATOR
 		$ret = @file_put_contents($destination,$streamData,true);
+
+		//截图
+        $extname = get_ext($destination);
+        $_img = str_replace('.'.$extname,'.jpg',$destination);
+
 		$ret = true;
 	}else{
 		$ret = false;
