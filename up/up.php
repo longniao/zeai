@@ -173,6 +173,8 @@ function receive_video($filename){
 		//截图
         $extname = get_ext($destination);
         $_img = str_replace('.'.$extname,'.jpg',$destination);
+        $cmd = 'ffmpeg -i '. $destination .' -ss 1 -vframes 1 ' . $_img;
+        exec($cmd);
 
 		$ret = true;
 	}else{

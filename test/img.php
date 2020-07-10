@@ -15,3 +15,7 @@ $img="./test.jpg";
 imagejpeg($gd_image, $img);
 imagedestroy($gd_image);
 
+// ffmpeg -i 119580_1594368143huq.mp4 -ss 1 -f image2 119580_1594368143huq.jpg
+// ffmpeg -i 119580_1594368143huq.mp4 -ss 1 -vframes 1 119580_1594368143huq.jpg
+
+
